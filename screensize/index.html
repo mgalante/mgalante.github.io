@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <pre></pre>
+<script>
+
+function showWindowData(){
+  const {innerHeight, innerWidth, outerHeight, outerWidth, devicePixelRatio} = window;
+  
+  
+  document.querySelector('pre').innerText = JSON.stringify(
+    {innerHeight, innerWidth, outerHeight, outerWidth, devicePixelRatio}
+    , null, 2);
+}
+  
+window.addEventListener('resize', showWindowData);
+showWindowData();
+</script>
+</body>
+</html>
