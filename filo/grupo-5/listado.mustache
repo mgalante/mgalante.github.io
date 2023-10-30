@@ -1,0 +1,14 @@
+<div class= "contenedor">
+<h1>Guía turística {{ciudad}}</h1>
+<img src="./Roma.jpg"/>
+  <p id="parrafo-1">Bienvenidos a Guía turística Roma, aquí encontrarás toda la información sobre rutas, itinerarios,
+    medios de transporte y recomendaciones para planificar tu viaje.</p>
+<h2>Distritos</h2>
+<ul>
+      {{#distritos}}
+      <li class="sitio_historico">
+      <a href="./detalle2.html?id={{id}}">{{nombre}}</a> <p>{{descripcion}}</p></li>
+      {{/distritos}}
+      
+    </ul>
+    </div>

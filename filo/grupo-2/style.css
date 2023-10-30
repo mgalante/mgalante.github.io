@@ -1,0 +1,23 @@
+h2 {
+    color:black;
+    text-align: center;
+}
+.contenedor {
+    background-color: red;
+    border: 5px solid white;
+border-radius: 5px;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+}
+
+h1 {
+    color:black;
+    text-align: center;
+}

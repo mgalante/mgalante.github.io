@@ -1,0 +1,47 @@
+{
+ 
+    "ciudad": "Roma",
+    "atractivo_turistico": "sitios históricos",
+    "distritos": [
+        {
+            "id": "01",
+            "nombre": "Centro Histórico",
+            "sitio_historico": "Panteón",
+            "descripcion":"El Centro Histórico de Roma fue declarado Patrimonio de la Humanidad por la Unesco en 1980. Se extiende a lo largo de 14 kilómetros cuadrados entre los antiguos muros aurelianas y gianicolensi.",
+            "descripciónsitiohistorico": "El Panteón de Agripa o Panteón de Roma es un antiguo templo romano —en la actualidad, consagrado como iglesia católica—, situado en la ciudad de Roma, Italia, en el lugar de un anterior templo encargado por Marco Agripa durante el gobierno de Augusto. Fue terminado por orden del emperador Adriano y dedicado alrededor del año 126.",
+            "descripcionAlojamiento": "La Suite de Manfredi en Roma, un hotel boutique de lujo, se encuentra ubicada en una de las calles más elegantes y famosas del centro de Roma, a escasos pasos de la Plaza de España.Esta zona pertenece al distrito de Campo Marzio, conocido por sus tiendas que albergan las principales marcas de moda nacionales e internacionales.Este antiguo edificio ha sido transformado en una hermosa residencia que cuenta con 16 habitaciones elegantemente decoradas en un estilo clásico. Además, ofrece suites de lujo y habitaciones diseñadas para alojar a familias, garantizando así una experiencia inolvidable para todos sus huéspedes.",
+            "cantidad_de_habitantes": 2700000,
+            "alojamiento":"Hotel Manfredi Suite In Rome",
+            "wiki": "https://es.wikipedia.org/wiki/Centro_hist%C3%B3rico_de_Roma",
+            "imagen": "./panteon.jpg",
+            "imagenHotel": "./Hotel Manfredi Suite in Rome.jpg"
+      
+        },
+        {
+            "id": "02",
+            "nombre": "Prati",
+            "sitio_historico": "Piazza Cavour",
+            "descripcion": "La elegante zona de Prati, ubicada en la ribera oeste del río Tíber, es un distrito de estilo art nouveau que se encuentra cercano a Via Cola di Rienzo y sus lujosas boutiques.",
+           "descripciónsitiohistorico":"La Piazza Cavour es una plaza situada entre la Piazza Adriana y la Via Triboniano, en el rione Prati de Roma, Italia. Dedicada al estadista piamontés Camillo Benso, conde de Cavour, se encuentra en una zona que en la antigüedad estuvo ocupada parcialmente por los prata Neronis, que dan su nombre a todo el rione.",
+           "descripcionAlojamiento": "El Hotel Arcangelo se encuentra en un elegante edificio de finales del siglo XIX, cerca del Vaticano y de la Basílica de San Pedro, a menos de 10 minutos de las Escaleras de España y Piazza Navona. La parada de metro más cercana es la de Lepanto, desde donde se puede ir tanto a otras partes de la ciudad como la estación de Termini,brindando un acceso cómodo al resto de la Ciudad Eterna y a sus monumentos memorables.",
+            "cantidad_de_habitantes":15628,
+            "alojamiento": "Hotel Arcangelo",
+            "wiki": "https://es.wikipedia.org/wiki/Prati",
+            "imagen": "./piazza_cavour.jpg",
+            "imagenHotel": "./Hotel Arcangelo.jpg"
+        },
+        {
+            "id": "03",
+            "nombre": "Milán",
+            "sitio_historico": "Galería Víctor Manuel II",
+            "descripcion":"Fundada hacia el año 590 a. C. por una tribu celta del grupo ínsubre en el centro de la llanura padana, la antigua Mediolanum siempre ha desempeñado un papel central en el ámbito político y cultural de Italia. Milán, la segunda ciudad más poblada de Italia, fue la capital del Imperio Romano de Occidente desde el 286 hasta el 402 d. C. Durante el Sacro Imperio Romano, la importancia de la ciudad creció tanto que se convirtió en una comuna libre, marcando así también la historia de la Lombardía y el destino de la península.",
+            "descripciónsitiohistorico":"La Galería de Víctor Manuel II (o Galleria Vittorio Emanuele II, en italiano) es un edificio singular de Milán (Italia) formado por dos arcadas perpendiculares con bóveda de vidrio que se cruzan formando un octágono. Está situado en el lado norte de la Piazza del Duomo, conectando con la Piazza della Scala. Su nombre proviene de Vittorio Emanuele II, primer rey de la Italia unificada; la galería fue diseñada originalmente en 1861 y construida por Giuseppe Mengoni entre 1865 y 1877.",
+            "descripcionAlojamiento": "Este hotel elegante, ubicado en un edificio aristocrático con ventanales y frontones de piedra, se encuentra a 3 minutos a pie de la estación de metro Repubblica, a 2 km del Palacio Real de Milán y a 3 km de la catedral de Milán.Su ubicación céntrica permite que los huéspedes puedan ir caminando hasta muchos de los principales monumentos como la Fuente de Trevi, el Teatro de la Opera, la Basílica de Santa María la Mayor y el Coliseo.",
+            "cantidad_de_habitantes":1396522,
+            "alojamiento": "Hotel Marconi",
+            "wiki":"https://es.wikipedia.org/wiki/Mil%C3%A1n",
+            "imagen": "./Galería Víctor Manuel II.jpg",
+            "imagenHotel": "./Hotel Marconi.jpg"
+        }
+    ]
+}

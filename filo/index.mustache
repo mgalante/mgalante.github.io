@@ -1,0 +1,17 @@
+<div class="contenedor">
+  <h1>Listado de Superhéroes</h1>
+  <img src="./puan.png" alt="Facultad de Filosofía y letras" />
+  <p>¡Bienvenides! Aquí encontrarás los TPs de Redes de les super-alumnes</p>
+  <ul>
+    {{#grupos}}
+    <li>
+      <a class="link-principal" href="detalle.html?id={{id}}">{{grupo}}</a> {{detalle}}
+        <ul>
+        {{#alumnes}}
+          <li>{{.}}</li>
+        {{/alumnes}}
+      </ul>
+    </li>
+    {{/grupos}}
+  </ul>
+</div>

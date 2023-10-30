@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrantes</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="Integrantes"></div>
+    <script src="./mustache.js"></script>
+    <script src="./functions.js"></script>
+    <script>
+
+        (async function (Integrantes) {
+            const datos = await cargarDatos("./datos.json");
+            const template = await cargarTemplate("./segundapagina.mustache");
+            const id = leerParametro("id");
+            const integrante = buscar(datos.integrantes, "id", id);
+            montar(template, integrante, "Integrantes");
+        })();
+    </script>
+</body>
+
+</html>

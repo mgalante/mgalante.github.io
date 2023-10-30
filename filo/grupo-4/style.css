@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'taylor';
+    src: url(Satisfaction.ttf);
+}
+@font-face {
+    font-family: 'taylor2';
+    src: url(taylorhandw.ttf);
+}
+
+
+body {
+    font-family: elegant;
+    background: rgb(245,218,158);
+    background: radial-gradient(circle, rgba(245,218,158,1) 0%, rgba(247,171,124,1) 10%, rgba(245,120,23,1) 56%, rgba(255,49,49,1) 100%);
+}
+
+h1{
+    font-family: 'taylor';
+    font-size: 70px;
+    text-align: left;
+    text-indent: 100px;
+}
+
+ul{
+    text-align: center;
+    display:flexbox ;
+    padding-left: 30px;
+}
+
+.contenedor {
+    max-width: 800px;
+    padding: 30px;
+    margin: 30px auto;
+    background-image: url(YAASS.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120vh;
+    border: 5px double #f5cd9f;
+    text-align: justify;
+}
+
+p{
+    padding-right: 50%;
+}
+
+
+h2 {
+    font-size:40px;
+    text-align: center;
+    color: rgb(236, 103, 181);
+    font-family: 'taylor2';
+}
+
+h3{
+    text-align: center;
+}
+
+h4 {
+    font-family: 'taylor2';
+    font-weight: 100;
+    font-size: medium;
+    text-align: center;
+}
+
+.información {
+    max-width: 800px;
+    padding: 5px;
+    margin: 0px auto;
+    background: white;
+    flex-direction: column;
+    columns: 2;
+    text-align: center;
+}
+
+.canciones {
+    max-width: 800px;
+    padding: 10px;
+    margin: 0px auto;
+    background: white;
+
+}
+
+.album {
+    max-width: 800px;
+    padding: 50px;
+    margin: 10px auto;
+    background: white;
+}
+
+.fondo{
+    background: rgb(131,86,245);
+    background: radial-gradient(circle, rgba(131,86,245,1) 0%, rgba(244,19,91,1) 62%, rgba(255,71,195,1) 93%);
+}
+
+

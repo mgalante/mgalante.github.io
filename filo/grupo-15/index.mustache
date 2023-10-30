@@ -1,0 +1,15 @@
+<div class="contenedor">
+<h1>Mejores bases de la NBA 2023</h1>
+    <img src="./Portada.jpg">
+    <p>Descubre quiénes están marcando la pauta como los mejores bases de la NBA en 2023. Estos talentosos jugadores son fundamentales para sus equipos y están demostrando su destreza en la cancha. Echemos un vistazo a algunas de las figuras más destacadas que están dejando su huella en la temporada de la NBA en 2023:</p>
+
+    <h2>Figuras destacadas:</h2>
+    <ul>
+        {{#mejoresbasesdelaNBA2023}}
+        <li><a href="./item.html?id={{id}}" class="nombre-inicio">{{nombre}}</a>
+        <p class="equipo-inicio">{{equipoactual}}</p>
+     </li>
+      {{/mejoresbasesdelaNBA2023}}
+    </ul>
+    <div class="logo"></div>
+</div>

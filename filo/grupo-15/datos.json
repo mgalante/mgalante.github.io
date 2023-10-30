@@ -1,0 +1,83 @@
+{
+    "mejoresbasesdelaNBA2023": [
+        {
+            "id": "1",
+            "nombre": "Stephen Curry",
+            "apodo": "The Chef",
+            "edad": 35,
+            "altura": 1.88,
+            "peso": 84,
+            "equipoactual": "Golden State Warriors",
+            "record": [
+                "3390 triples",
+                "402 en la temporada 2015-16"
+            ],
+            "wiki": "https://es.wikipedia.org/wiki/Stephen_Curry",
+            "imagen": "./Curry.jpg",
+            "detalleExtendido": "Stephen Curry nació el 14 de marzo de 1988 en Akron, Ohio, Estados Unidos. Curry es ampliamente considerado uno de los mejores tiradores de triples en la historia de la NBA y ha tenido un impacto significativo en la forma en que se juega el baloncesto en la era moderna. Curry jugó para los Golden State Warriors desde que fue seleccionado por el equipo en el Draft de la NBA en 2009. Durante su carrera, ha sido nombrado varias veces All-Star y ha ganado múltiples títulos de la NBA con los Warriors. También ha sido galardonado con el premio al Jugador Más Valioso (MVP) de la NBA en varias ocasiones. Además de su éxito en la cancha, Curry es conocido por su carisma y su influencia fuera de la cancha. Ha trabajado en numerosas causas benéficas y es un modelo a seguir para muchos jóvenes jugadores de baloncesto. Su estilo de juego revolucionó la forma en que se aborda el tiro de tres puntos en la NBA, y ha tenido un impacto duradero en el juego y en la popularización del baloncesto."
+        },
+        {
+            "id": "2",
+            "nombre": "Luka Doncic",
+            "apodo": "Wonder Boy",
+            "edad": 24,
+            "altura": 2.01,
+            "peso": 104,
+            "equipoactual": "Dallas Mavericks",
+            "record": [
+                "Jugador más joven en ganar MVP",
+                "Primer triple-doble de 60 puntos y 20 rebotes en la historia de la NBA"
+            ],
+            "wiki": "https://es.wikipedia.org/wiki/Luka_Doncic",
+            "imagen": "./Doncic.jpg",
+            "detalleExtendido": "Luka Dončić es un talentoso jugador de baloncesto de origen esloveno nacido el 28 de febrero de 1999. Conocido por su habilidad excepcional para manejar el balón, su visión de juego y su capacidad de anotación, Dončić se ha convertido en una de las estrellas emergentes de la NBA. Comenzó su carrera en la liga profesional europea antes de unirse a los Dallas Mavericks en 2018 como una de las selecciones más prometedoras del draft. Desde entonces, ha acumulado numerosos premios y ha demostrado ser un líder en la cancha a pesar de su juventud. Su estilo de juego versátil y su carisma lo han convertido en un favorito tanto dentro como fuera de la cancha."
+        },
+        {
+            "id": "3",
+            "nombre": "Damian Lillard",
+            "apodo": "Dame time",
+            "edad": 33,
+            "altura": 1.88,
+            "peso": 88,
+            "equipoactual": "Milwaukee Bucks",
+            "record": [
+                "12 triples en un partido de Playoffs",
+                "2 Buzzer Beating para ganar series de Playoffs"
+            ],
+            "wiki": "https://es.wikipedia.org/wiki/Damian_Lillard",
+            "imagen": "./Lillard.jpg",
+            "detalleExtendido": "Damian Lillard, conocido como es un destacado jugador de baloncesto de la NBA nacido el 15 de julio de 1990. Lillard ha pasado toda su carrera con los Portland Trail Blazers desde que fue seleccionado en el draft de 2012. Es ampliamente reconocido por su habilidad para anotar desde larga distancia, su mentalidad de clutch en momentos cruciales y su liderazgo en la cancha. Ha sido nombrado varias veces All-Star y ha dejado una huella indeleble en la franquicia de Portland como uno de los mejores bases de la liga. Fuera de la cancha, Lillard es conocido por su ética de trabajo y su compromiso con la comunidad, lo que lo convierte en un ícono tanto en el baloncesto como en la sociedad."
+        },
+        {
+            "id": "4",
+            "nombre": "Shaivonte Aician Gilgeous-Alexander",
+            "apodo": "Shai",
+            "edad": 25,
+            "altura": 1.98,
+            "peso": 88,
+            "equipoactual": "Oklahoma City Thunder",
+            "record": [
+                "Jugador más joven en lograr un triple doble con al menos 20 puntos, 20 rebotes y 10 asistencias"
+            ],
+            "wiki": "https://es.wikipedia.org/wiki/Shai_Gilgeous-Alexander",
+            "imagen": "./Shai.jpg",
+            "detalleExtendido": "Haivonte Aician Gilgeous-Alexander, es un talentoso jugador de baloncesto de la NBA nacido el 12 de julio de 1998. Conocido por su versatilidad en la cancha, Gilgeous-Alexander ha demostrado ser un base y escolta excepcional con habilidades de manejo de balón, capacidad de anotación y visión de juego. Comenzó su carrera profesional con los LA Clippers en 2018 después de ser seleccionado en el draft de la NBA y luego fue traspasado a los Oklahoma City Thunder. En poco tiempo, se convirtió en una de las promesas más brillantes de la liga y un líder en el campo de juego. Su estilo de juego fluido y su capacidad para crear oportunidades tanto para sí mismo como para sus compañeros de equipo lo han consolidado como una figura destacada en la NBA."
+        },
+        {
+            "id": "5",
+            "nombre": "Tyrese Haliburton",
+            "apodo": "Hali",
+            "edad": 23,
+            "altura": 1.96,
+            "peso": 84,
+            "equipoactual": "Indiana Pacers",
+            "record": [
+                "Primer jugador de menos de 23 años en promediar al menos 20 puntos, 10 asistencias con un más de 40% de acierto en triple",
+                "Primer jugador en lograr 40 asistencias sin ninguna pérdida en 3 partidos seguidos"
+            ],
+            "wiki": "https://es.wikipedia.org/wiki/Tyrese_Haliburton",
+            "imagen": "./Hali.jpg",
+            "detalleExtendido": "Tyrese Haliburton es un destacado jugador de baloncesto de la NBA nacido el 29 de febrero de 2000. Se destacó por su versatilidad y su capacidad para impactar en múltiples aspectos del juego. Haliburton fue seleccionado en el draft de la NBA en 2020 por los Sacramento Kings y rápidamente impresionó con su habilidad para manejar el balón, su visión de juego y su capacidad de anotación. A lo largo de su joven carrera, Haliburton se ha ganado una reputación como un base sólido y un defensor eficiente. Su estilo de juego inteligente y su ética de trabajo han atraído elogios tanto dentro como fuera de la cancha. A medida que continúa desarrollándose en la NBA, Haliburton promete ser una pieza fundamental en el futuro de su equipo y un jugador a tener en cuenta en la liga."
+        }
+    ]
+}

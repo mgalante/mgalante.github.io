@@ -1,0 +1,21 @@
+<div class="contenedor">
+  <h1>{{nombre}} - {{apodo}}</h1> 
+
+  <h2>Reseña biográfica</h2>
+
+  <img src="{{imagen}}" height="400">
+    <link rel="stylesheet" href="style.css">
+  <p>{{biografia}}</p>
+
+  <h2>Apariciones destacadas</h2>
+
+  <ul>
+    {{#apariciones_destacadas}}
+      <li>{{.}}</li>
+    {{/apariciones_destacadas}}
+  </ul>
+
+  <li><a href="{{wikipedia}}">Wikipedia</a></li>
+
+  <p><a href="./index.html">volver</a></p>
+</div>

@@ -1,0 +1,72 @@
+{
+  "actrices": [
+    {
+      "id": "1",
+      "nombre": "Mirtha Legrand",
+      "apodo": "La chiqui",
+      "biografia": "Es una actriz y presentadora de televisión argentina con 80 años de carrera. Nació como Rosa María Juana Martínez Suárez el 23 de febrero de 1927, en Villa Cañás, Santa Fe, Argentina. Es hermana de la actriz Silvia Legrand y del gran director José Antonio Martínez Suárez. Legrand es una de las figuras del entretenimiento más reconocidas de Argentina, habiendo aparecido en casi 40 películas y en más de 20 obras de teatro. Sin embargo, es mejor conocida por su programa de televisión de entrevistas Almorzando con las estrellas que se emitió por primera vez en 1968 en el canal 9 de Alejandro Romay y luego pasó a llamarse Almorzando con Mirtha Legrand. Legrand estuvo casada con el director Daniel Tinayre (del cual protagonizó varios films) y tuvo dos hijos, uno de ellos se suicidó",
+      "apariciones destacadas": [
+        "Los martes, orquídeas (1941, Francisco Mugica)",
+        "La casta Susana (1944, Juan Carlos Muello)",
+        "La patota (1960, Daniel Tinayre)"
+      ],
+      "wikipedia": "https://es.wikipedia.org/wiki/Mirtha_Legrand",
+      "imagen": "./Mirtha_Legrand_1946-un-beso-en-la-nuca.jpg"
+    },
+    {
+      "id": "2",
+      "nombre": "Libertad Lamarque",
+      "apodo": "La novia de América Latina",
+      "biografia": "Libertad Lamarque Bouza fue una actriz y cantante argentina que se convirtió en uno de los íconos de la Época de Oro del cine argentino y mexicano. Nació el 24 de noviembre de 1908 en Rosario, Provincia de Santa Fe, Argentina. Su padre era uruguayo de ascendencia francesa y su madre era de origen español. Lamarque fue nombrada Libertad porque en el momento de su nacimiento, su padre, un anarquista, estaba encarcelado y pedía su liberación. Comenzó su carrera en la década de 1920 y continuó trabajando en la industria hasta su muerte en el año 2000. Lamarque protagonizó 65 películas e innumerables telenovelas latinoamericanas y grabó más de 800 canciones, incluidos muchos tangos memorables. Alcanzó fama en toda Latinoamérica y se hizo conocida como La Novia de América. Lamarque murió el 12 de diciembre de 2000, en la Ciudad de México a la edad de 92 años debido a una neumonía.",
+      "apariciones destacadas": [
+        "¡Tango!(1933, Luis Moglia Barth)",
+        "Puerta cerrada (1939, John Alton y Luis Saslavsky)",
+        "La cabalgata de circo (1945, Eduardo Boneo y Mario Soffici)"
+      ],
+      "wikipedia": "https://es.wikipedia.org/wiki/Libertad_Lamarque",
+      "imagen": "./libertad-lamarque.jpg"
+    },
+    {
+      "id": "3",
+      "nombre": "Nini Marshall",
+      "apodo": "La Chaplin con faldas",
+      "biografia": "Marina Traveso Esther, mejor conocida como Niní Marshall (1903–1996) comenzó su carrera a inicios de 1930. Fue popular por su habilidad para crear personajes humorísticos inolvidables para el público. Su destacado talento para la comedia y su carisma en la pantalla la convirtieron en una de las actrices más queridas de Argentina durante el Periodo de Oro. Actuó en numerosas películas e incursionó también en radio y teatro. Su versatilidad como actriz la convirtió en una de las figuras más icónicas de la época. Hoy se considera un referente en la historia del cine y la comedia argentina.",
+      "apariciones destacadas": [
+        "Hay que educar a Niní (1940, Luis César Amadori)",
+        "Los celos de Cándida (1940, Luis Bayón Herrera)",
+        "Cándida millonaria (1941, Luis Bayón Herrera)"
+      ],
+      "wikipedia": "https://es.wikipedia.org/wiki/Niní_Marshall",
+      "imagen": "./NiniMarshall.jpg"
+    },
+    {
+      "id": "4",
+      "nombre": "Paulina Singerman",
+      "apodo": "Paulinita",
+      "biografia": "Paulina Singerman Begun fue una actriz y empresaria argentina que trabajó principalmente durante la Época de Oro del Cine Argentino, actuando tanto en teatro como en cine. Nació en 1911 en Buenos Aires en una familia de inmigrantes judíos rusos. Fue la hermana menor de la actriz Berta Singerman. Desde temprana edad, Singerman, su hermana Berta y su vecina Amelia Bence actuaban con otros niños del barrio en los patios de sus casas. De hecho, fue Paulina quien le sugirió a la mamá de Bence que tomara clases de actuación en el Teatro Infantil Lavardén, que funciona en el Teatro Colón, donde estudiaba Singerman. Pasó una década actuando para televisión en la última parte de su carrera. Murió en 1984 en Buenos Aires a los 73 años debido a una deficiencia cardíaca. Estuvo casada con el empresario teatral José Leonardo Vázquez",
+      "apariciones destacadas": [
+        "Caprichosa y millonaria (1940, Enrique Santos Discépolo)",
+        "Elvira Fernández, vendedora de tienda (1942, Manuel Romero",
+        "Hay que casar a Paulina (1944, Manuel Romero)"
+      ],
+      "wikipedia": "https://es.wikipedia.org/wiki/Paulina_Singerman",
+      "imagen": "./paulina.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "Eva Perón",
+      "apodo": [
+        "Evita",
+        "El hada buena"
+      ],
+      "biografia": "Eva Perón (1919-1952), también conocida como Evita, es una de las figuras más icónicas de la historia argentina. Comenzó su carrera en el teatro, en donde ganó popularidad por sus habilidades interpretativas y su carisma en el escenario. Aunque breve, su carrera actoral logró dejar un impacto significativo en la industria del cine clásico. Su presencia en la pantalla generó una fuerte conexión con su público, convirtiéndola en una de las estrellas de cine más populares de la Época de Oro. Después del exitoso film La cabalgata del circo, Eva Perón se centró principalmente en su rol político como esposa del presidente argentino Juan Domingo Perón y en sus actividades como directora de la Fundación Eva Perón. A pesar de su corta incursión en el cine, su legado como una de las divas más emblemáticas del Periodo de Oro argentino perdura hasta hoy, recordada tanto por su carisma en la pantalla como por su influencia en la política y la sociedad argentinas.",
+      "apariciones destacadas": [
+        "La carga de los valientes, (1940, Adelqui Migliar)",
+        "Una novia en apuros”, (1941, John Reinhardt)",
+        "La cabalgata del circo (1945, Mario Soffici)"
+      ],
+      "wikipedia": "https://es.wikipedia.org/wiki/Eva_Perón",
+      "imagen": "./eva_peron_actriz.jpg"
+    }
+  ]
+}

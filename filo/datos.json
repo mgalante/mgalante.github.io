@@ -1,0 +1,39 @@
+{
+  "grupos": [
+    {
+      "id": "1",
+      "imagen": "cineargfront.jpg",
+      "grupo": "Grupo 1",
+      "alumnes": ["Tomas de Brito", "Noelia Alvarez", "Nahuel Díaz"],
+      "descripcion": "Actrices argentinas del Cine de Oro"
+    },
+    {
+      "id": "2",
+      "imagen": "Stray_Kids_-_Go_Live.png",
+      "grupo": "Grupo 2",
+      "alumnes": ["Ingrid Myers"],
+      "descripcion": "Stray Kids"
+    },
+    {
+      "id": "4",
+      "imagen": "SpeakNow.png",
+      "grupo": "Grupo 4",
+      "alumnes": ["Sofia Pequeño", "Natalia Gerez", "Micaela D'arcangelo"],
+      "descripcion": "Taylor Swift"
+    },
+    {
+      "id": "5",
+      "imagen": "Roma.jpg",
+      "grupo": "Grupo 5",
+      "alumnes": ["Gabriela Liliana Lingeri", "Silvia Alejandra Altamirano"],
+      "descripcion": "Guía turística Roma"
+    },
+    {
+      "id": "15",
+      "imagen": "Portada.jpg",
+      "grupo": "Grupo 15",
+      "alumnes": ["Natalia Cavalcante"],
+      "descripcion": "Mejores bases de la NBA 2023"
+    }
+  ]
+}

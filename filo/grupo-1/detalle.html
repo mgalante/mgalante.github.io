@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalle</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://mgalante.github.io/filo/mustache.js"></script>
+    <script src="https://mgalante.github.io/filo/functions.js"></script>
+  </head>
+  <body>
+    <div id="contenido"></div>
+    <script>
+      (async function () {
+        const datos = await cargarDatos("./datos.json");
+        const template = await cargarTemplate("./detalle.mustache");
+        const id = leerParametro("id");
+        const item = buscar(datos["Actrices argentinas del Cine de Oro"], "id", id);
+        montar(template, item, "contenido");
+      })();
+    </script>
+  </body>
+</html>
+
+

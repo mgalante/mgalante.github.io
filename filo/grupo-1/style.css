@@ -1,0 +1,22 @@
+h1 {
+    color: rgb(15, 66, 75);
+    text-align: center;
+}
+
+body {
+    font-style: italic;
+    background-color: rgb(133, 158, 100);
+    border: 10px dashed;
+    margin: 25px auto;
+    padding: 20px;
+    max-width: 880px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: circle;
+}

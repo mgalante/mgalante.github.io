@@ -1,0 +1,25 @@
+<div class="contenedor">
+<h1>{{nombre}}</h1>
+    <img src="./{{imagen}}">
+    <h2>Características:</h2>
+    <ul class="listado-caracteristicas">
+        <li>Apodo: "{{apodo}}"</li>
+        <li>Edad: {{edad}} años</li>
+        <li>Altura: {{altura}} m</li>
+        <li>Peso: {{peso}} kg</li>
+        <li>Equipo actual: {{equipoactual}}</li>
+        <li>Récord:
+            <ul>
+                {{#record}}
+                <li>{{.}}</li>
+                {{/record}}
+            </ul>
+        </li>    
+        <li>Más información: <a href="{{wiki}}" class="mi-enlace">Wikipedia</a></li>
+    </ul>
+    <h2>Descripción:</h2>
+    <p class="parrafo-detalle">
+      {{detalleExtendido}}
+    </p>
+    <a href="./index.html" class="mi-enlace">Volver</a>
+</div>

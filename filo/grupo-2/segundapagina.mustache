@@ -1,0 +1,19 @@
+<div class= "contenedor">
+        <p><a href= "{{link}}">{{apodo}}</a></p>
+        <p><strong>Nombre completo: </strong> {{nombreCompleto}}</p>
+        {{imagen}}
+        <p><strong>Nombre en coreano:</strong> {{nombreEnCoreano}}</p>
+        <p><strong>Fecha de nacimiento:</strong> {{fechaDeNacimiento}}</p>
+        <p><strong>Profesión:</strong> 
+        <ul>
+        {{#profesion}}
+        <li>{{.}}</li>
+       
+        {{/profesion}}
+         </ul>
+        </p>
+
+
+    <p><a href="./index.html">Volver</a></p>
+
+</div>

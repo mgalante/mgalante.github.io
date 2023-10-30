@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actrices Argentinas del Cine de Oro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Actrices argentinas del Cine de Oro</h1>
+
+    <img src="./cineargfront.jpg" height="400">
+
+    <p>Durante la Época de Oro del Cine Argentino, muchas actrices se hicieron famosas por su belleza y talento. Estas son algunas de las actrices más notables de esa época:</p>
+
+    <h2>Actrices</h2>
+
+    <ul>
+        {{#actrices}}
+        <li>
+            <a href="./detalle.html?id={{id}}">{{nombre}}</a>
+            <p>{{apodo}}</p>
+        </li>
+        {{/actrices}}
+    </ul>
+
+    <p>Estas actrices fueron conocidas por sus actuaciones en películas que hoy son consideradas clásicos del cine argentino. También fueron íconos de la moda e íconos culturales de su época.</p>
+
+    <img src="./fin.jpg" height="400">
+</body>
+</html>

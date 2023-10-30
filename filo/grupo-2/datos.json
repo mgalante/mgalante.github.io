@@ -1,0 +1,77 @@
+{
+    "titulo": "Integrantes de Stray Kids",
+    "integrantes": [
+        {
+            "id": "1",
+            "apodo": "Bang Chan",
+            "link": "https://drama.fandom.com/es/wiki/Bang_Chan",
+            "nombreCompleto": "Christopher Chan",
+            "nombreEnCoreano": "방찬",
+            "fechaDeNacimiento": "Seúl, 3 de octubre de 1997",
+            "profesion": ["cantante", "compositor", "rapero", "productor"]
+        },
+        {
+            "id": "2",
+            "apodo": "Lee Know",
+            "link": "https://drama.fandom.com/es/wiki/Lee_Know",
+            "nombreCompleto": "Lee Min-ho",
+            "nombreEnCoreano": "리노",
+            "fechaDeNacimiento": "Gimpo, 25 de octubre de 1998",
+            "profesion": ["cantante", "rapero", "bailarín"]
+        },
+        {
+            "id": "3",
+            "apodo": "Changbin",
+            "link": "https://drama.fandom.com/es/wiki/Seo_Chang_Bin",
+            "nombreCompleto": "Seo Chang-bin",
+            "nombreEnCoreano": "창빈",
+            "fechaDeNacimiento": "Yongin, 11 de agosto de 1999",
+            "profesion": ["rapero", "letrista", "compositor", "productor"]
+        },
+        {
+            "id": "4",
+            "apodo": "Hyunjin",
+            "link": "https://drama.fandom.com/es/wiki/Hwang_Hyun_Jin",
+            "nombreCompleto": "Hwang Hyun-jin",
+            "nombreEnCoreano": "현진",
+            "fechaDeNacimiento": "Seúl, 20 de marzo de 2000",
+            "profesion": ["rapero", "cantante", "modelo", "MC", "bailarín"]
+        },
+        {
+            "id": "5",
+            "apodo": "Han",
+            "link": "https://drama.fandom.com/es/wiki/Han",
+            "nombreCompleto": "Han Ji-sung",
+            "nombreEnCoreano": "한",
+            "fechaDeNacimiento": "Incheon, 14 de septiembre de 2000",
+            "profesion": ["rapero", "letrista", "compositor", "productor"]
+        },
+        {
+            "id": "6",
+            "apodo": "Felix",
+            "link": "https://drama.fandom.com/es/wiki/Felix",
+            "nombreCompleto": "Felix Lee",
+            "nombreEnCoreano": "필릭스",
+            "fechaDeNacimiento": "Seven Hills, Sídney, 15 de septiembre de 2000",
+            "profesion": ["rapero", "bailarín"]
+        },
+        {
+            "id": "7",
+            "apodo": "Seungmin",
+            "link": "https://drama.fandom.com/es/wiki/Kim_Seung_Min",
+            "nombreCompleto": "Kim Seung-min",
+            "nombreEnCoreano": "승민",
+            "fechaDeNacimiento": "Seúl, 22 de septiembre de 2000",
+            "profesion": ["cantante", "bailarín"]
+        },
+        {
+            "id": "8",
+            "apodo": "I.N.",
+            "link": "https://drama.fandom.com/es/wiki/I.N",
+            "nombreCompleto": "Yang Jeong-in",
+            "nombreEnCoreano": "아이엔",
+            "fechaDeNacimiento": "Dong-gu, Busan, 8 de febrero de 2001",
+            "profesion": ["cantante", "bailarín"]
+        }
+    ]
+}

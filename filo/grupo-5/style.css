@@ -1,0 +1,68 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #f5ca8a;
+    color: #333;
+
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+h2 {
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.sitio_historico {
+    margin-bottom: 10px;
+}
+
+
+.contenedor {
+
+    color: white;
+    width: calc(100%-32px);
+    max-width: 500px;
+    padding: 32px;
+    margin: 20px auto;
+    background: #bd8787;
+    border: 5px solid rgb(245, 227, 193);
+    border-radius: 20px;
+}
+
+img {
+    display: block;
+    box-sizing: border-box;
+    margin: 10px auto;
+    width: 80%;
+    border: 1px solid #333;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+a:link {
+    color: rgb(71, 133, 106);
+}
+a:visited{
+    color:rgb(16, 34, 113);
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:rgb(227, 181, 222);
+}
+
