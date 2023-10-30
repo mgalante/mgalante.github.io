@@ -1,0 +1,57 @@
+{
+    "titulo": "Candidatos a presidente Argentina 2023: Balotage",
+    "descripcion": "Candidatos/as a Presidente que avanzaron las PASO el 13 de agosto de 2023 en orden alfabetico",
+    "candidatos":  [
+        {
+            "id": "a",
+            "nombre": "Bregman, Myriam ",
+            "edad": 51,
+            "estudios": "abogada",
+            "trabajo actual": "diputada nacional",
+            "partido politico": "Frente de Izquierda y los Trabajadores",
+            "imagen": "./bregman.jpg",
+            "paso al Balotage": false
+        },
+        {
+            "id": "b",
+            "nombre": "Bullrich, Patricia ",
+            "edad": 67,
+            "estudios": "doctora en ciencias politicas",
+            "trabajo actual": "presidenta de propuesta republicana",
+            "partido politico": "Juntos por el Cambio",
+            "imagen":"./bullrich.webp",
+            "paso al Balotage": false
+        },
+        
+        {
+            "id": "c",
+            "nombre": "Massa, Sergio ",
+            "edad": 51,
+            "estudios": "abogado",
+            "trabajo actual":"ministro de economia",
+            "partido politico": "Union por la Patria",
+            "imagen": "./massa.jpg",
+            "paso al Balotage": true
+        },
+        {
+            "id": "d",
+            "nombre": "Milei, Javier ",
+            "edad": 53,
+            "estudios": "economista",
+            "trabajo actual":"diputado nacional",
+            "partido politico": "La Libertad Avanza",
+            "imagen": "./milei.jpg",
+            "paso al Balotage": true
+        },
+        {
+            "id": "e",
+            "nombre": "Schiaretti, Juan ",
+            "edad": 74,
+            "estudios": "contador publico",
+            "trabajo actual": "gobernador de cordoba",
+            "partido politico": "Hacemos por Nuestra Patria",
+            "imagen": "./schiareti.jpg",
+            "paso al Balotage": false
+        }
+    ]
+}

@@ -34,6 +34,13 @@
       "grupo": "Grupo 15",
       "alumnes": ["Natalia Cavalcante"],
       "descripcion": "Mejores bases de la NBA 2023"
+    },
+    {
+      "id": "20",
+      "imagen": "elecciones.png",
+      "grupo": "Grupo 20",
+      "alumnes": ["Agostina Ojeda"],
+      "descripcion": "Mejores bases de la NBA 2023"
     }
   ]
 }
