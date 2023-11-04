@@ -1,0 +1,96 @@
+.pagina1 {
+    background: #2f2ff5; 
+}
+.contenedor {
+    max-width: 1200px;
+    padding: 10px 50px;
+    margin: 50px 50px;
+    background: #8989ca; 
+    border: 10px solid black;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+}
+.contenedor h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+.contenedor h2 {
+    color: black;
+    font-size: 30px;
+    margin: 32px 0 ;
+}
+.contenedor ul {
+    padding-left: 30px;
+    list-style-type: square;
+    font-size: 25px;
+    font-weight: bold;
+}
+.pagina2 {
+    background-image: url(3.jpg);
+    background-size: 30%;
+    padding: 5px;
+    margin-inline: 250px;  
+}
+.pagina2 h1 {
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.padding2 {
+    background-color: burlywood;
+    border-radius: 10px;
+    border-style: hidden;
+    text-align: left;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.contenido {
+    margin-inline: 20px;
+    margin-block: 30px;
+}
+.caja {
+    border-style: dotted;
+    border-color: black;
+    background-color: brown;
+    display:inline-flex;
+    padding: 0 10px;
+}
+.caja a {
+    color: white;
+}
+.contenido ul {
+    padding-left: 30px;
+    list-style-type: circle;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contenido h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+    height: 80%;
+}
+a {
+    color: black;    text-decoration: underline;
+}
+p {
+    color: black;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.estilo {
+    text-transform: uppercase;
+}

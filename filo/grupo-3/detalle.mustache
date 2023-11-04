@@ -1,0 +1,33 @@
+<a href="./index.html"> Volver </a>
+
+
+<h1> {{nombre}}</h1>
+
+{{#tipo}}
+<h2>{{espacio}}</h2>
+<img src="{{imagen}}" height="300">
+
+{{#tienecombinacion}}
+<h3>combinación:</h3>
+<ul>
+    {{#combinacion}}
+    <li> {{.}}</li>
+    {{/combinacion}}
+</ul>
+{{/tienecombinacion}}
+
+
+<h3> Relaciones:</h3>
+<ul>
+    {{#relacion}}
+    <li> {{.}}</li>
+    {{/relacion}}
+</ul>
+
+<h3> Emociones:</h3>
+<ul>
+    {{#emociones}}
+    <li> {{.}} </li>
+    {{/emociones}}
+</ul>
+{{/tipo}}

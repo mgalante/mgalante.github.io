@@ -1,0 +1,57 @@
+{
+    "Editoriales": [
+      {
+        "id": "1",
+        "nombre": "Omashu",
+        "ubicación": "Buenos Aires",
+        "creación": 2010,
+        "cantidadDeTítulosPublicados": 20,
+        "traducen": false,
+        "temáticas": ["Ficción latinoamericana", "No ficción", "Poesía"],
+        "descripcion": "Buscan construir libros que resulten de un diálogo entre los textos y una materialidad que cobije distintas expresiones artísticas.",
+        "web": "https://www.youtube.com/shorts/ALCbHgdTlHQ",
+        "imagen": "./Omashu.jpeg",
+        "detalleExtendido": "<p>Dirigida por los hermanos Diego y Paula, cada libro es impreso, encuadernado e intervenido en su taller con fotos, dibujos, collages, piezas audiovisuales, accesorios varios e impresión tipográfica. Trabajan con tres artistas (una ilustradora, una fotógrafa y un director de cine) y un jefe de taller tipográfico. </p><p>Imprimen individualmente cada libro con una imprenta que tiene más de 70 años. Las tiradas giran alrededor de los 50 a 100 ejemplares.</p>"
+      },
+      {
+        "id": "2",
+        "nombre": "Funesiana",
+        "ubicación": "Flores, Ciudad Autónoma de Buenos Aires",
+        "creación": 2007,
+        "cantidadDeTítulosPublicados": 20,
+        "traducen": false,
+        "temáticas": ["Novela", "Poesía", "Cuento"],
+        "descripcion": "Apuntan a la ecoedición, producen sus libros a pedido y no por anticipado.",
+        "web": "https://www.funesiana.com.ar/",
+        "imagen": "./Fune.jpg",
+        "detalleExtendido": "<p>Dirigida por Lucas Oliveira, este proyecto propuso crear un Ecosistema del Libro Artesanal denominado RAF, la Revolución del Amor Funesiano, un intento por utilizar a las editoriales artesanales para que distribuyan la mayor cantidad de títulos posibles en la mayor cantidad de lugares posibles. </p><p>Publican autorxs nuevos y consagrados, reeditan títulos agotados.</p>"
+      },
+      {
+        "id": "3",
+        "nombre": "Barba de Abejas",
+        "ubicación": "City Bell, Buenos Aires",
+        "creación": 2010,
+        "cantidadDeTítulosPublicados": 90,
+        "traducen": true,
+        "temáticas": ["Libro-objeto", "Arte", "Oficios del libro"],
+        "descripcion": "El taller de edición es un espacio dinámico de aprendizaje y experimentación editorial y artística constante.",
+        "web": "https://barba-de-abejas.tumblr.com/",
+        "imagen": "./Barba1.jpeg",
+        "detalleExtendido": "<p>Dirigida por Eric Schierloh, imprime sus publicaciones de forma hogareña con 2 impresoras monocromáticas Ricoh: SP5300DNE y P800; y las encuadernada completamente a mano (los interiores se perforan, refilan y cosen). Las viñetas de tapa o las propias tapas de las publicaciones están impresas con tipografía móvil de plomo en una minerva a palanca (Reznor).</p><p> Utiliza tipografías de madera (y algunas de plomo), y una guillotina L.M. de industria nacional. El catálogo se compone, principalmente, de traducciones de obras inéditas de autores clásicos (Henry David Thoreau, William Morris, Herman Melville, D.H. Lawrence, etc.) y de autores u obras nunca antes traducidos al español (Theodore Enslin, David Meltzer, Ethel Mairet, Morris Cox, Por favor planta este libro de Richard Brautigan, etc.).</p>"
+      },
+      {
+        "id": "4",
+        "nombre": "El Vendedor de Tierra",
+        "ubicación": "Florida, Buenos Aires",
+        "creación": 2018,
+        "cantidadDeTítulosPublicados": 13,
+        "traducen": false,
+        "temáticas": ["Poesía","Novela","Ensayo breve"],
+        "descripcion": "Los materiales que componen sus libros forman parte de un único objeto poético.",
+        "web": "https://elvendedordetierra.tumblr.com/",
+        "imagen": "./elvendedor1.jpeg",
+        "detalleExtendido": "<p>El equipo editorial está conformado por María Luján Ochoa, Luciana Ravazzini y Alejo González. Su nombre se debe al título de un libro y poema de Jacobo Regen (Salta, 1935-2019). </p><p>Desde noviembre de 1995 hasta enero de 2021, El Vendedor de Tierra también se realizó como una revista de poesía, que apuntaba principalmente a la publicación de autores y autoras argentinos y latinoamericanos, rescatando a figuras poco difundidas. </p><p>Los libros están impresos a láser, en cuadernillos plegados, cosidos, perforados, refilados, numerados y con señaladores, a reimprimir según la demanda.</p>"}
+    ]
+  }
+  
+  

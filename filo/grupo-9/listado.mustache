@@ -1,0 +1,23 @@
+<div class="contenedor">
+  <h1>Alejandro Tapia y Rivera</h1>
+  <h2>Catálogo de obras</h2>
+  <img src="./tapia.jpg" alt="tapia" />
+  <p>
+    Alejandro Tapia y Rivera (12 de noviembre 1826, San Juan de Puerto Rico - 19
+    de julio de 1882, San Juan de Puerto Rico) fue un poeta, dramaturgo,
+    ensayista, historiógrafo, escritor y político puertorriqueño. Es considerado
+    el Padre de las Letras Nacionales en Puerto Rico.
+  </p>
+  <p>Obras:</p>
+  <div id="listado"></div>
+  <ul>
+    {{#obras}}
+    <li>
+      <a class="link principal" href="./detalle.html?id={{ id }}">{{
+        titulo
+      }}</a>
+      <p></p>
+    </li>
+    {{/obras}}
+  </ul>
+</div>

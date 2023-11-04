@@ -1,0 +1,142 @@
+{
+    "título": "Colores",
+    "descripción": "Es la impresión producida por un tono de luz en los órganos visuales, o más específicamente, es una percepción visual que se genera en el cerebro de los humanos y otros animales al interpretar las señales nerviosas que le envían los fotorreceptores en la retina del ojo, que a su vez interpretan y distinguen las distintas longitudes de onda que captan de la parte visible del espectro electromagnético. Es estudiado por la ciencia del color.",
+    "colores": [
+        {
+            "id": "01",
+            "nombre": "Colores primarios",
+            "descripcion": "Son aquellos colores que no pueden ser obtenidos mediante la mezcla de otros tonos o colores, sino que son “puros”, contenidos en la luz blanca y dentro del espectro visible para el ojo humano.",
+            "imagen": "colores-primarios-e1534777590518.jpg",
+            "tipo": [
+                {
+                    "espacio": "Rojo",
+                    "tienecombinacion": false,
+                    "relacion": [
+                        "fuego",
+                        "producción de adrenalina",
+                        "alerta",
+                        "apetito"
+                    ],
+                    "emociones": [
+                        "valentía",
+                        "amor",
+                        "pasión",
+                        "fuerza",
+                        "crecimiento",
+                        "iniciativa"
+                    ],
+                    "imagen": "https://www.aboutespanol.com/thmb/geMo0qGbUeww_oTYqJbVm9_I21M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/rosas-1101c0db677b49768839cb5df497af71.jpg"
+                },
+                {
+                    "espacio": "Amarrillo",
+                    "tienecombinación": false,
+                    "relacion": [
+                        "alegría",
+                        "originalidad",
+                        "inteligencia",
+                        "sol",
+                        "enfermedad"
+                    ],
+                    "emociones": [
+                        "envidia",
+                        "celos",
+                        "deterioro",
+                        "preocupación",
+                        "energia"
+                    ],
+                    "imagen": "https://radiomitre-la100-prod.cdn.arcpublishing.com/resizer/8wscpSoMI5IC7fZ2BkPFhm3gmn8=/filters:format(webp)/cloudfront-us-east-1.images.arcpublishing.com/radiomitre/WLSTVKHYEBDWRMLI33D2QHV7VY.jpg"
+                },
+                {
+                    "espacio": "Azul",
+                    "tienecombinacion": false,
+                    "relacion": [
+                        "agua",
+                        "aire"
+                    ],
+                    "emociones": [
+                        "paz",
+                        "tranquilidad",
+                        "amistad",
+                        "lealtad",
+                        "seguridad",
+                        "confianza"
+                    ],
+                    "imagen": "https://blog.ebac.mx/blog/wp-content/uploads/2022/09/image6-4-e1663227870574.jpg"
+                }
+            ]
+        },
+        {
+            "id": "02",
+            "nombre": "Colores secundarios",
+            "descripcion": "Son todos aquellos que se obtienen a través de la mezcla o combinación de los colores primarios o puros. Teniendo en cuenta que depende de la mezcla a partes iguales de dos colores primarios (50% de cada uno), puedes obtener varios tipos de colores secundarios.",
+            "imagen": "https://concepto.de/wp-content/uploads/2018/08/colores-secundarios-e1534777706838.jpg",
+            "tipo": [
+                {
+                    "espacio": "Violeta",
+                    "tienecombinacion": true,
+                    "combinacion": [
+                        "Rojo",
+                        "Azul"
+                    ],
+                    "relacion": [
+                        "creatividad",
+                        "misterio",
+                        "magia",
+                        "meditación",
+                        "sensualidad",
+                        "realeza",
+                        "nobleza",
+                        "lujo"
+                    ],
+                    "emociones": [
+                        "calma",
+                        "fatalidad",
+                        "tristeza"
+                    ],
+                    "imagen": "https://img.interempresas.net/fotos/1619993.jpeg"
+                },
+                {
+                    "espacio": "Naranja",
+                    "tienecombinacion": true,
+                    "combinacion": [
+                        "Rojo",
+                        "Amarillo"
+                    ],
+                    "relacion": [
+                        "vitalidad",
+                        "creatividad",
+                        "juventud"
+                    ],
+                    "emociones": [
+                        "calidez",
+                        "alegría",
+                        "optimismo",
+                        "confianza"
+                    ],
+                    "imagen": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?ixlib=rb-4.0.3"
+                },
+                {
+                    "espacio": "Verde",
+                    "tienecombinacion": true,
+                    "combinacion": [
+                        "Amarillo",
+                        "Azul"
+                    ],
+                    "relacion": [
+                        "montañas",
+                        "valles",
+                        "espacios forestales"
+                    ],
+                    "emociones": [
+                        "relajación",
+                        "tranquilizador",
+                        "estabilidad",
+                        "armonía",
+                        "esperanza."
+                    ],
+                    "imagen": "https://lamenteesmaravillosa.com/wp-content/uploads/2021/11/hojas-color-verde-1024x683.jpg"
+                }
+            ]
+        }
+    ]
+}

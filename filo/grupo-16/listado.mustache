@@ -1,0 +1,13 @@
+ <div class="contenedor">
+ <h1>Instituciones y Asociaciones de la Colectividad Gallega en Argentina</h1>
+ <img src="banderas.jpg" alt="Galicia en Argentina">
+ <p>Bienvenidos y bienvenidas a esta página en la que podrán encontrar información sobre las instituciones y asociaciones de la colectividad gallega en Argentina. Estas asociaciones fueron creadas durante el siglo XIX y XX por inmigrantes y exiliados de Galicia con la finalidad principal de preservar su cultura, su idioma, sus costumbres, así como crear espacios de ayuda y contención.</p>
+<ul>
+{{#Instituciones}}
+<li>
+  <a href="./detalle.html?id={{id}}">{{Nombre}}</a>
+<p>{{Direccion}}</p>
+</li>
+{{/Instituciones}}
+</ul>
+</div>

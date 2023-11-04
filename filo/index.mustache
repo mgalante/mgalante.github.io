@@ -1,17 +1,19 @@
 <div class="contenedor">
-  <h1>Listado de Superhéroes</h1>
-  <img src="./puan.webp" alt="Facultad de Filosofía y letras" />
-  <p>Estos son los trabajos prácticos de Redes 2023:</p>
-  <ul>
+  <h1>Trabajos prácticos Redes 2023</h1>
+
+  <div class="gallery">
     {{#grupos}}
-    <li>
-      <a class="link-principal" href="detalle.html?id={{id}}">{{grupo}}</a> {{detalle}}
-        <ul>
-        {{#alumnes}}
-          <li>{{.}}</li>
-        {{/alumnes}}
-      </ul>
-    </li>
+    <a class="link-principal" href="./grupo-{{ id }}">
+      <div class="image">
+        <img src="./grupo-{{ id }}/{{ imagen }}" />
+        <div class="author">
+          <p class="titulo-trabajo">{{ descripcion }}</p>
+          {{#alumnes}}
+          <p>{{.}}</p>
+          {{/alumnes}}
+        </div>
+      </div>
+    </a>
     {{/grupos}}
-  </ul>
+  </div>
 </div>

@@ -1,0 +1,51 @@
+{
+    "título": "Reino Fungi",
+    "subtítulo": "Especies",
+    "descripción": "En biología, el término Fungi (plural latino de fungus, lit. «hongos») se utiliza para designar a un taxón o grupo de organismos eucariotas. Están clasificados en un reino distinto al de las plantas, animales, protozoos y cromistas. Se distinguen de las plantas en que son heterótrofos; y de los animales en que poseen paredes celulares, como las plantas, compuestas por quitina, en vez de celulosa. Es el reino de la naturaleza más cercano filogenéticamente a los animales (Animalia).",
+    "fichas_micológicas": [
+        {
+            "id": "1",
+            "nombre_científico": "penicillium chrysogenum",
+            "nombre_común": [],
+            "ecología": "saprófito",
+            "reproducción": "esporas",
+            "morfología_de_las_fructificaciones": "ascomiceto",
+            "respiración": ["aerobia"],
+            "imagen": "./PC1.jpeg",
+            "enlace": "https://hongos-alergenicos.reviberoammicol.com/files/036.PDF", 
+            "descripción_de_enlace": "ficha de la Revista Iberoamericana de micología"
+        },
+        {
+            "id": "2",
+            "nombre_científico": "polyporus squamosus",
+            "nombre_común": [
+                "poliporo de escamas",
+                "silla de montar de la dríade",
+                "seta de cola de faisán"
+            ],
+            "ecología": "parásito",
+            "reproducción": "esporas",
+            "morfología_de_las_fructificaciones": "basidiomiceto",
+            "respiración": ["aerobia"],
+            "imagen": "./PS2.jpeg",
+            "enlace": "http://www.amanitacesarea.com/polyporus-squamosus.html",
+            "descripción_de_enlace": "ficha de la Asociación micológica El Royo"
+
+        },
+        {
+            "id": "3",
+            "nombre_científico": "saccharomyces cerevisiae",
+            "nombre_común": ["levadura de cerveza"],
+            "ecología": "saprófito",
+            "reproducción": "gemación",
+            "morfología_de_las_fructificaciones": "ascomiceto",
+            "respiración": [
+                "aerobia",
+                "anaerobia facultativa"
+            ],
+            "imagen": "./SC2.jpeg",
+            "enlace": "https://es.wikipedia.org/wiki/Saccharomyces_cerevisiae",
+            "descripción_de_enlace": "artículo de Wikipedia"
+        }
+    ]
+}

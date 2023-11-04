@@ -1,0 +1,161 @@
+{
+    "titulo": "Peliculas de Christopher Nolan",
+    "peliculas": [
+        {
+            "nombre": "Interestelar",
+            "genero": [
+                "ciencia ficcion",
+                "drama"
+            ],
+            "estreno": 2014,
+            "elenco": [
+                {
+                    "nombre": "Mathew",
+                    "apellido": "McConauguey"
+                },
+                {
+                    "nombre": "Anne",
+                    "apellido": "Hathaway"
+                },
+                {
+                    "nombre": "Jessica",
+                    "apellido": "Chastain"
+                },
+                {
+                    "nombre": "Mackenzie",
+                    "apellido": "Foy"
+                }
+            ],
+            "perteneceasaga": false
+        },
+        {
+            "nombre": "Tenet",
+            "genero": [
+                "ciencia ficcion",
+                "accion"
+            ],
+            "estreno": 2020,
+            "elenco": [
+                {
+                    "nombre": "Elizabeth",
+                    "apellido": "Debicki"
+                },
+                {
+                    "nombre": [
+                        "Jhon", 
+                        "David"
+                    ],
+                   "apellido": "Washington"
+                },
+                {
+                    "nombre": "Robert",
+                    "apellido": "Pattinson"
+                }
+            ],
+            "perteneceasaga": false
+        },
+        {
+            "nombre": "Inception",
+            "genero": [
+                "ciencia ficcion",
+                "accion"
+            ],
+            "estreno": 2010,
+            "elenco": [
+                {
+                    "nombre": "Leonardo",
+                    "apellido": "DiCaprio"
+                },
+                {
+                    "nombre": "Joseph",
+                    "apellido": [
+                        "Gordon",
+                        "Levitt"
+                    ]
+                },
+                {
+                    "nombre": "Cillian",
+                    "apellido": "Murphy"
+                },
+                {
+                    "nombre": "Tom",
+                    "apellido": "Hardy"
+                },
+                {
+                    "nombre": "Elliot",
+                    "apellido": "Page"
+                },
+                {
+                    "nombre": "Marion",
+                    "apellido": "Cotillard"
+                }
+            ],
+            "perteneceasaga": false
+        },
+        {
+            "nombre": "Memento",
+            "genero": [
+                "cine independiente",
+                "drama"
+            ],
+            "estreno": 2000,
+            "elenco": [
+                {
+                    "nombre": "Guy",
+                    "apellido": "Pearce"
+                },
+                {
+                    "nombre": [
+                        "Carrie",
+                        "Anne"
+                    ],
+                    "apellido": "Moss"
+                },
+                {
+                    "nombre": "Joe",
+                    "apellido": "Pantoliano"
+                },
+                {
+                    "nombre": "Jorja",
+                    "apellido": "Fox"
+                }
+            ],
+            "perteneceasaga": false
+        },
+        {
+            "nombre": "Dunkerke",
+            "genero": [
+                "drama",
+                "belico"
+            ],
+            "estreno": 2017,
+            "elenco": [
+                {
+                    "nombre": "Harry",
+                    "apellido": "Styles"
+                },
+                {
+                    "nombre": "Fionn",
+                    "apellido": "Whitehead"
+                },
+                {
+                    "nombre": "Cillian",
+                    "apellido": "Murphy"
+                },
+                {
+                    "nombre": "Tom",
+                    "apellido": "Hardy"
+                },
+                {
+                    "nombre": "Jack",
+                    "apellido": "Lowden"
+                },
+                {
+                    "nombre": "Kenneth",
+                    "apellido": "Branagh"
+                }
+            ],
+            "perteneceasaga": false
+        }
+    ]
+}

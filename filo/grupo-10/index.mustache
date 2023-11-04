@@ -1,0 +1,15 @@
+<div class="contenedor">
+  <h1>{{título}}</h1>
+  <img src="./RF.jpeg" widht="300" height="300" />
+  <p>
+    {{descripción}}
+  </p>
+  <h2>{{subtítulo}}</h2>
+  <ul>
+    {{#fichas_micológicas}}
+    <li>
+      <a href="./detalle.html?id={{ id }}">{{nombre_científico}}</a>
+    </li>
+    {{/fichas_micológicas}}
+  </ul>
+</div>

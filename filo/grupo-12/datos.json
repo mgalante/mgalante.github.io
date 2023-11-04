@@ -1,0 +1,53 @@
+{
+  "titulo": "Vela",
+  "veleros": [
+    {
+      "id": "1",
+      "detalle": "Optimist es una clase internacional de embarcación de vela ligera reconocida por la Federación Internacional de Vela y cuyo organismo rector es la International Optimist Dinghy Association (IODA). Fue diseñada por el estadounidense Clark Mills en 1947. Está enfocada para niños de entre seis y quince años. Es un barco simple, estable, y, a la vez, competitivo. El número de unidades existentes en todo el mundo supera las 450.000, y más de 100 países están representados en la International Optimist Dinghy Association.",
+      "nombre": "Optimist",
+      "cantidadTripulantes": 1,
+      "caracteristicasGenerales": [
+        "Eslora: 236 cm",
+        "Manga: 112 cm ",
+        "Peso: 35 kg"
+      ],
+      "superficieVelica": "3,5 m²",
+      "cantidadVelas": 1,
+      "wiki": "https://es.wikipedia.org/wiki/Optimist",
+      "imagen": "Optimist.jpg",
+      "masDetalle": "Es el único velero aprobado por la Federación Internacional de Vela para menores de 16 años, por su particular forma y su reducido tamaño que hace de él un barco idóneo para los navegantes más jóvenes. Su estructura rectangular hace que sea muy poco hidrodinámico, en el interior del barco encontramos a los laterales dos flotadores que permiten que el barco no se hunda al tumbarse (cuando el barco se da vuelta), y uno en popa, en el centro está la caja de la orza, donde se coloca la orza, que se realiza en madera (contrachapado o laminado), resina o fibra de vidrio (el más usado), al igual que el timón; el timón se coloca en el centro de la popa y cuenta con una caña y una extensión para facilitar su manejo al que se lo denomina como prolongador y una pala, para poder dar la dirección. En la proa se encuentra la fogonadura donde se coloca el mástil, teniendo de base la carlinga. El mástil, junto con la botavara y el pico sujetan la vela. Generalmente se porta también un balde llamado 'achicador' para poder vaciar el agua que pueda entrar en el barco."
+    },
+    {
+      "id": "2",
+      "detalle": "El Laser es una clase internacional de embarcación a vela diseñada por el canadiense Bruce Kirby en 1969, y su ente rector es la International Laser Class Association (ILCA). Esta es una popular clase de un solo diseño de pequeño velero, construido originalmente por el rendimiento del Laser. Es un barco de una sola mano, lo que significa que es navegado por una persona. El Laser Radial es una variante del estándar láser, con mástil más corto y área de vela reducida, permitiendo a los navegantes ligeros navegar en fuertes vientos. La Clase Internacional es reconocida por la World Sailing.",
+      "nombre": "Laser",
+      "cantidadTripulantes": 1,
+      "caracteristicasGenerales": [
+        "Eslora: 423 cm",
+        "Manga: 142 cm ",
+        "Peso: 59 kg"
+      ],
+      "superficieVelica": "5,76 m²",
+      "cantidadVelas": 1,
+      "wiki": "https://es.wikipedia.org/wiki/Laser_(vela)",
+      "imagen": "laser.png",
+      "masDetalle": "El Laser tiene tres versiones oficiales de aparejo, aunque mantiene el mismo casco para las tres. La simplicidad del casco y el aparejo hacen que pueda navegar con vientos de hasta 30 nudos de intensidad. El láser tiene la característica de planear las olas satisfactoriamente debido a la ligereza y poco volumen del casco."
+    },
+    {
+      "id": "3",
+      "detalle": "Snipe es una clase internacional de embarcación a vela reconocida por la Federación Internacional de Vela y cuyo organismo rector es la Snipe Class International Racing Association (SCIRA). Fue diseñada por William F. Crosby en 1931.",
+      "nombre": "Snipe",
+      "cantidadTripulantes": 2,
+      "caracteristicasGenerales": [
+        "Eslora: 472 cm",
+        "Manga: 152 cm ",
+        "Peso: 172,8 kg"
+      ],
+      "superficieVelica": "10,8 m²",
+      "cantidadVelas": 2,
+      "wiki": "https://es.wikipedia.org/wiki/Snipe",
+      "imagen": "snipe.png",
+      "masDetalle": "El Snipe es una embarcación de vela ligera de la que se pueden destacar por ser una clase eminentemente táctica. No es veloz, y prima la táctica en regata, por lo que tiene un valor formativo alto. Tres de los cuatro regatistas con mayor número de medallas olímpicas de la historia, Torben Grael con cinco, Robert Scheidt con cinco, y Paul Bert Elvstrøm con cuatro, se formaron en la clase Snipe (el otro regatista con mayor número de medallas es Ben Ainslie), y cinco miembros de la clase han sido elegidos Regatista Mundial del Año de la ISAF desde la creación de este galardón en 1994. Además maniobra y navega perfectamente con vientos flojos, desde fuerza, ya que fue diseñado especialmente para vientos suaves y su coste es bajo en comparación con otras clases de prestaciones similares, y existe un gran mercado de segunda mano gracias a la política de la clase opuesta a aceptar evoluciones de medidas o materiales que puedan dejar obsoletas unidades antiguas o elevar el coste de los aparejos."
+    }
+  ]
+}

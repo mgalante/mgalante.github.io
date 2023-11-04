@@ -1,7 +1,8 @@
 body {
- font-family: 'Comic Sans MS';
- background: #518ed2;
- color: #333;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -9,25 +10,36 @@ h1 {
 }
 
 
-.contenedor {
-    max-width: 700px;
-    margin: 20px auto;
-    padding: 32px;
-    background: #cecece;
-    border: 5px solid orange;
-    border-radius: 20px;
+.titulo-trabajo {
+    font-weight: 600;
+    padding-bottom: 8px;
 }
 
-img {
-    width:100%;
-    border: 1px solid #333;
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-ul {
-    list-style: disc;
-    padding-left: 30px;
+.image {
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    height: 400px;
 }
 
-p {
-    margin-bottom: 16px;
+.image img {
+    width: 100%; /* Make the image cover the entire container width */
+    height: 300px; /* Make the image cover the entire container height */
+    object-fit: cover; /* Crop the image in the center while maintaining its aspect ratio */
+}
+
+.author {
+    margin-top: 10px;
+    color: #555;
 }

@@ -15,6 +15,13 @@
       "descripcion": "Stray Kids"
     },
     {
+      "id": "3",
+      "imagen": "colores-primarios-e1534777590518.jpg",
+      "grupo": "Grupo 3",
+      "alumnes": ["Laura Alderete", "Valeria Quiroz"],
+      "descripcion": "Colores"
+    },
+    {
       "id": "4",
       "imagen": "SpeakNow.png",
       "grupo": "Grupo 4",
@@ -29,10 +36,80 @@
       "descripcion": "Guía turística Roma"
     },
     {
+      "id": "8",
+      "imagen": "christopher-nolan.jpg",
+      "grupo": "Grupo 8",
+      "alumnes": ["Jazmin Proserpio Soto"],
+      "descripcion": "Peliculas de Christopher Nolan"
+    },
+    {
+      "id": "9",
+      "imagen": "tapia.jpg",
+      "grupo": "Grupo 9",
+      "alumnes": ["Jan S. Febus"],
+      "descripcion": "Catálogo de Obras de Alejandro Tapia y Rivera"
+    },
+    {
+      "id": "10",
+      "imagen": "RF.jpeg",
+      "grupo": "Grupo 10",
+      "alumnes": ["Cecilia Sindona"],
+      "descripcion": "Reino Fungi"
+    },
+    {
+      "id": "12",
+      "imagen": "vela1.jpg",
+      "grupo": "Grupo 12",
+      "alumnes": ["Giuliana Magnano"],
+      "descripcion": "Navegación a vela"
+    },
+    {
+      "id": "13",
+      "imagen": "R.jpg",
+      "grupo": "Grupo 13",
+      "alumnes": ["Elisa Fresenga", "Martina Pojmaevich"],
+      "descripcion": "Saga de literatura fantástica creada por Steven Erikson."
+    },
+    {
+      "id": "14",
+      "imagen": "serpiente-azul-portada.jpg",
+      "grupo": "Grupo 14",
+      "alumnes": ["Iara Aranda"],
+      "descripcion": "Serpientes"
+    },
+    {
       "id": "15",
       "imagen": "Portada.jpg",
       "grupo": "Grupo 15",
       "alumnes": ["Natalia Cavalcante"],
+      "descripcion": "Mejores bases de la NBA 2023"
+    },
+    {
+      "id": "16",
+      "imagen": "federacion.jpg",
+      "grupo": "Grupo 16",
+      "alumnes": ["Marta Villar Ramiro"],
+      "descripcion": "Instituciones y Asociaciones de la Colectividad Gallega en Argentina"
+    },
+    {
+      "id": "17",
+      "imagen": "3021720.jpg",
+      "grupo": "Grupo 17",
+      "alumnes": ["Leonardo Busto Krüger"],
+      "descripcion": "Candidatxos que dieron su apoyo a Greta Thunberg"
+    },
+    {
+      "id": "18",
+      "imagen": "rock nacional.jpg",
+      "grupo": "Grupo 18",
+      "alumnes": ["Lucía Battocchio"],
+      "descripcion": "Bandas de rock nacional"
+    },
+    {
+      "id": "19",
+      "imagen": "foto taller.jpeg",
+      "grupo": "Grupo 19",
+      "alumnes": ["Bettina Pucheta"],
       "descripcion": "Mejores bases de la NBA 2023"
     },
     {

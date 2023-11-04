@@ -1,0 +1,23 @@
+<p><a href="./index.html">Volver</a></p>
+<h1>{{ nombre }}</h1>
+<img src="{{ imagen }}" />
+<h2>Información detallada</h2>
+<ul>
+  <li><strong>Año de creación:</strong>{{añoCreacion}}</li>
+  <li>
+    <strong>Integrantes:</strong>
+    <ul>
+      {{#integrantes}}
+      <li>{{.}}</li>
+      {{/integrantes}}
+    </ul>
+  </li>
+  <li>
+    <strong>Géneros:</strong>
+    <ul>
+      {{#generos}}
+      <li>{{.}}</li>
+      {{/generos}}
+    </ul>
+  </li>
+</ul>

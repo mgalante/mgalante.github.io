@@ -1,0 +1,31 @@
+{
+  "candidatxs": [
+    {
+      "id": "1",
+      "nombre": "Bernard  Sanders",
+      "alias": "Bernie",
+      "descripcion": "Senador de los Estados Unidos",
+      "wiki": "https://es.wikipedia.org/wiki/Bernie_Sanders",
+      "imagen": "./Bernie_Sanders_in_March_2020.jpg",
+      "detalleExtendido": "Gran orador y destacado altruista."
+    },
+    {
+      "id": "2",
+      "nombre": "Robert Francis O'Rourke",
+      "alias": "Beto",
+      "descripcion": "Miembro de la Cámara de Representantes de Estados Unidos.",
+      "wiki": "https://es.wikipedia.org/wiki/Beto_O%27Rourke",
+      "imagen": "./Beto_ORourke_April_2019.jpg",
+      "detalleExtendido": "Decidido militante, amigo de sus amigos."
+    },
+    {
+      "id": "3",
+      "nombre": "Kamala Harris",
+      "alias": "Kama",
+      "descripcion": "49.º Vicepresidenta de los Estados Unidos.",
+      "wiki": "https://es.wikipedia.org/wiki/Kamala_Harris",
+      "imagen": "./Kamala_Harris_Vice_Presidential_Portrait.jpg",
+      "detalleExtendido": "Buena gestora y gran estadista."
+    }
+  ]
+}

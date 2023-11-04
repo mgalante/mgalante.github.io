@@ -1,0 +1,16 @@
+<div class="contenedor">
+  <h1>{{nombre}}</h1>
+  <p>
+    {{#genero}}
+    {{.}}
+    {{/genero}}
+  </p>
+  <h2>Elenco:</h2>
+  <ul>
+    {{#elenco}}
+    <li>
+      <p>{{nombre}} {{apellido}}</p>
+    </li>
+    {{/elenco}}
+  </ul>
+</div>

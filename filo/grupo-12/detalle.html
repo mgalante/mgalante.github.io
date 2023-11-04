@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div id="contenido"></div>
+    <script src="mustache.js"></script>
+    <script src="functions.js"></script>
+    <script>
+        (async function () {
+            const datos = await cargarDatos("./datos.json");
+            const template = await cargarTemplate("./detalle.mustache");
+            const id = leerParametro("id");
+            const velero = buscar(datos.veleros, "id", id);
+            montar(template, velero, "contenido");
+        })();
+    </script>
+</body>
+</html>

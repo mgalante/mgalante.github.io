@@ -1,0 +1,14 @@
+<div class= "contenedor">
+  <img src= "./serpiente-azul-portada.jpg"/>
+  <h1>Serpientes</h1>
+  <p> 
+    Las serpientes, también llamadas ofidios, son reptiles cuya característica principal es el cuerpo muy alargado y la ausencia de patas, excepto por la pitón, que con el tiempo ha desarrollado extremidades diminutas. Existen más de 2.000 especies, de las cuales solo 450 son venenosas; habitan en todos los continentes del mundo, exceptuando únicamente a la Antártida, y siendo Australia el país que conserva a las diez serpientes más venenosas de todo el planeta. A continuación se nombran de forma general algunas de ellas: 
+  </p>
+  <ul>
+    {{#serpientes}}
+    <li>
+      <a href="detalle.html?id={{id}}">{{nombre}}</a>
+    </li>
+  {{/serpientes}}
+  </ul>
+</div>

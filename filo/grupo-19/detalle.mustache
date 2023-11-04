@@ -1,0 +1,38 @@
+<div class="contenedor detalle">
+<p><a href="./index.html">Volver</a></p>
+    <h1>Detalle de {{nombre}}</h1>
+    <img src="./{{imagen}}"/>
+    <p>{{descripcion}}</p>
+    <h2>Información detallada</h2>
+    <ul>
+      <li><strong>Nombre:</strong> {{nombre}}</li>
+      <li><strong>Ubicación:</strong> {{ubicación}}</li>
+        <li><strong>Creación:</strong> {{creación}}</li>
+          <li><strong>Cantidad de títulos publicados:</strong> {{cantidadDeTítulosPublicados}}</li>
+          <li><strong>Traducen:</strong> 
+          
+          {{#traducen}}
+             sí
+           {{/traducen}}
+            {{^traducen}}
+              no
+             {{/traducen}}
+        
+          </li>
+      <li>
+        <strong>Temáticas:</strong>
+        <ul>
+  {{#temáticas}}
+    <li>{{.}}</li>
+  {{/temáticas}}
+        </ul>
+      </li>
+      <li>
+        <a href="{{web}}">Más info de {{nombre}} en la web</a>
+      </li>
+    </ul>
+  
+      {{{detalleExtendido}}}
+  
+    <p><a href="./index.html">Volver</a></p>
+</div>

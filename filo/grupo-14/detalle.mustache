@@ -1,0 +1,36 @@
+<div class="contenedor detalle">
+  <h1>{{ nombre }}</h1>
+  <img src="./{{ imagen }}" />
+  <h2>Información general</h2>
+  <ul>
+    <li><strong>Nombre científico:</strong> {{nombre cientifico}}</li>
+    <li><strong>Familia:</strong> {{ familia }}</li>
+    <li>
+      <strong>Venenosa:</strong>
+      {{#venenosa}}
+      Sí
+      {{/venenosa}}
+      {{^venenosa}}
+      No
+      {{/venenosa}}
+    </li>
+  </ul>
+  <h3>Características</h3>
+  <p><strong> Descripción:</strong></p>
+  <p>{{ descripcion }}</p>
+  <p><strong> Alimentación:</strong></p>
+  <ul>
+    {{#alimentacion}}
+    <li>{{.}}</li>
+    {{/alimentacion}}
+  </ul>
+  <p><strong> Hábitat:</strong></p>
+  <p>{{ habitat }}</p>
+  <ul>
+    <li><strong>Más información en:</strong></li>
+    <ul>
+      <li><a href="{{ wiki }}">Wikipedia</a></li>
+    </ul>
+  </ul>
+  <p><a href="./index.html">Volver</a></p>
+</div>

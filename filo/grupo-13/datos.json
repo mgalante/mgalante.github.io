@@ -1,0 +1,47 @@
+{
+  "titulo": "Malaz, el libro de los caídos",
+  "libros": [
+    {
+      "id": "01",
+      "titulo": "Los jardines de la luna",
+      "imagen": "./los jardines de la luna.jpg",
+      "añoDeEdicion": 1999,
+      "descripcion": "Primera entrega de la saga, donde nos presentan a los personajes y nos sumergimos en el universo fascinante de Malaz.",
+      "protagonistas": [
+        "Anomander Rake",
+        "Ganoes Paran",
+        "Whiskeyjack",
+        "Velajada",
+        "Kruppe"
+      ]
+    },
+    {
+      "id": "02",
+      "titulo": "Las puertas de la casa de la muerte",
+      "imagen": "./LPDLCDLM.jpg",
+      "añoDeEdicion": 2000,
+      "descripcion": "El Imperio de Malaz se halla al borde de la anarquía. En el Santo Desierto Raraku, la vidente Sha'ik y sus seguidores se preparan para el Torbellino.",
+      "protagonistas": [
+        "Kalam",
+        "Sha'ik",
+        "Felisin",
+        "Icarium",
+        "Mappo",
+        "Coltaine"
+      ]
+    },
+    {
+      "id": "03",
+      "titulo": "Memorias del hielo",
+      "imagen": "./MDH.jpg",
+      "añoDeEdicion": 2001,
+      "descripcion": "Una fuerza aterradora ha surgido en el continente asolado de Genabackis.",
+      "protagonistas": [
+        "Vidente Painita",
+        "Caladan Brood",
+        "Dujek Unbrazo",
+        "Anomander Rake"
+      ]
+    }
+  ]
+}

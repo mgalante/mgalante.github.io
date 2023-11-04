@@ -1,0 +1,50 @@
+{
+    "obras": [
+      {
+        "id": "01",
+        "titulo": "La palma del cacique",
+        "titulocompleto": "La palma del cacique, leyenda primitiva de Puerto Rico",
+        "lugar": "Madrid",
+        "fecha": 1852,
+        "imagen": "./palma.jpg",
+        "sinopsis": "Primera novela indigenista puertorriqueña. Trata la historia de los amores de Loarina con el Capitán Sotomayor y los celos del cacique Guarionex en los tiempos de la conquista. Tapia fundamentó su novela en los hallazgos de las crónicas de la conquista de Puerto Rico en las Biblioteca Españolas en 1852."
+      },
+      {
+        "id": "02",
+        "titulo": "Biblioteca Histórica de Puerto Rico",
+        "titulocompleto": "Biblioteca Histórica de Puerto Rico, que contiene varios documentos de los siglos XV, XVI, XVII y XVIII",
+        "lugar": "Mayagüez",
+        "fecha": 1854,
+        "imagen": "./bibhistpr.jpg",
+        "sinopsis": "Recopilación de fuentes de información de utilidad para el estudio de la historia en la Isla. La Biblioteca Histórica fue el primer trabajo de su clase en el país."
+      },
+      {
+        "id": "03",
+        "titulo": "Roberto D'Evreux",
+        "titulocompleto": "Roberto D'Evreux. Drama histórico en 4 actos",
+        "lugar": "San Juan de Puerto Rico",
+        "fecha": 1857,
+        "imagen": "./devreux.jpg",
+        "sinopsis": "Escrita para el Teatro de la Filarmónica en 1849 y censurada por el Real Censor de Teatros e Imprenta, Francisco Vasallo y Forés. Trata de los amores de la Reina de Inglaterra y su conflicto de tener que mandar a ejecutar al hombre que amaba. Representada por primera vez en el teatro de San Juan el 19 de septiembre de 1856."
+      },
+      {
+        "id": "04",
+        "titulo": "El Bardo de Guamaní",
+        "titulocompleto": "El Bardo de Guamaní. Ensayos literarios",
+        "lugar": "La Habana",
+        "fecha": 1863,
+        "imagen": "./guamani.jpg",
+        "sinopsis": "Primera antología de la obra de Alejandro Tapia y Rivera, elaborada por él mismo, que recoge todos sus trabajos desde 1847 hasta sus años de exilio en La Habana en 1862. Tapia incluye sus primeras novelas, y obras de teatro, así como sus poemas biográficos. Su prólogo constituye la primera historia de la literatura puertorriqueña."
+      },
+      {
+        "id": "05",
+        "titulo": "La Sataniada",
+        "titulocompleto": "La Sataniada. Grandiosa epopeya dedicada al príncipe de las tinieblas",
+        "lugar": "Madrid",
+        "fecha": 1878,
+        "imagen": "./sataniada.jpg",
+        "sinopsis": "Un poema considerado extraño, repleto de alegorías sobre el origen del mundo y las mitologías. La obra más enigmática del maestro que ha sido analizada por excelentísimos críticos nacionales e internacionales quienes ubican esta producción a la altura de las grandes epopeyas del renacimiento y el romanticismo. Sin embargo, cayó al olvido y a la indiferencia por la marginación metropolitana que sufrió el autor en su tiempo por su origen caribeño."
+      }
+    ]
+  }
+  

@@ -1,29 +1,29 @@
 <div class="fondo">
-<div class="album">
-<div class="información"> 
-    <h2>{{nombre}}</h2>
-        <h3>Año</h3>
-            <h4>{{año}}</h4>     
-        <h3>Duración</h3>
-            <h4>{{duración}}</h4> 
-        
-    <h2><img src="./{{imagen}}" height="300"></h2>
+  <div class="album">
+    <div class="información">
+      <h2>{{ nombre }}</h2>
+      <h3>Año</h3>
+      <h4>{{año}}</h4>
+      <h3>Duración</h3>
+      <h4>{{duración}} minutos</h4>
+
+      <h2><img src="./{{ imagen }}" height="300" /></h2>
+    </div>
+    <h3>Canciones</h3>
+    <div class="canciones">
+      {{#canciones}}
+      <h4>{{ name }} - {{duración}} minutos</h4>
+      {{/canciones}}
+    </div>
+    <h3>
+      {{#regrabación}}
+      Regrabación
+      {{/regrabación}}
+      {{^regrabación}}
+      Original
+      {{/regrabación}}
+    </h3>
+  </div>
+  <h3><a href="{{ spotify }}">Listen</a></h3>
+  <h3><a href="taylor.html">Volver</a></h3>
 </div>
-        <h3>Canciones</h3>
-<div class="canciones">
-            {{#canciones}}
-            <h4>{{name}}          -          {{duración}}</h4>
-            {{/canciones}}
-</div>
-<h3>
-            {{#regrabación}}
-                Regrabación
-            {{/regrabación}}
-            {{^regrabación}}
-                Original
-            {{/regrabación}}
-        </h3>
-</div>  
-        <h3><a href="{{spotify}}">Listen</a></h3>
-        <h3><a href="taylor.html">Volver</a></h3>
-</div> 

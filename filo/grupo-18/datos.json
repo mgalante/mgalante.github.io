@@ -1,0 +1,39 @@
+{
+  "titulo": "Listado de bandas",
+  "descripcion": "Este listado contiene información acerca de algunas de las bandas argentinas de rock más influyentes.",
+  "bandas de rock nacional": [
+    {
+      "id": "1",
+      "nombre": "La Renga",
+      "añoCreacion": "1988",
+      "imagen": "./la renga.jpg",
+      "integrantes": [
+        "Gustavo Chizzo Nápoli",
+        "Gabriel Tete Iglesias",
+        "Jorge Tanque Iglesias",
+        "Manuel Manu Varela"
+      ],
+      "generos": ["Hard rock", "blues rock", "stoner rock", "heavy metal"]
+    },
+    {
+      "id": "2",
+      "nombre": "Patricio Rey y sus Redonditos de Ricota",
+      "añoCreacion": "1976",
+      "imagen": "./pr.jpg",
+      "integrantes": [
+        "Indio Solari",
+        "Skay Beilinson",
+        "Semilla Bucciarelli",
+        "Sergio Dawi",
+        "Walter Sidotti"
+      ],
+      "generos": [
+        "Blues rock",
+        "hard rock",
+        "post-punk",
+        "new wave",
+        "rock alternativo"
+      ]
+    }
+  ]
+}

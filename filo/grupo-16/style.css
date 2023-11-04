@@ -1,0 +1,37 @@
+body {
+    font-family: 'Calibri'; 
+    background: #0e84df;
+    color: #070235ef;
+   }
+   
+   h1 {
+       text-align: center;
+   }
+   
+   .detalle h1 {
+       color: rgb(2, 1, 26);
+   }
+   
+   .contenedor {
+       max-width: 800px;
+       margin: 20px auto;
+       padding: 32px;
+       background: #f6f7f5;
+       border: 10px solid rgb(23, 12, 237);
+       border-radius: 20px;
+   }
+   
+   img {
+    display:block;
+    width: 500px;
+    margin: 0 auto;
+   }
+   
+   ul {
+       list-style: disc;
+       padding-left: 30px;
+   }
+   
+   p {
+       margin-bottom: 16px;
+   }

@@ -4,19 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detalle</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="contenido"></div>
+    <div id="detalle"></div>
     <script src="./mustache.js"></script>
     <script src="./functions.js"></script>
     <script>
       (async function () {
-        const datos = await cargarDatos("./datos.json");
+        const datos = await cargarDatos("./peliculasnolan.json");
         const template = await cargarTemplate("./detalle.mustache");
-        const id = leerParametro("id");
-        const grupo = buscar(datos.grupos, "id", id);
-        montar(template, grupo, "contenido");
+        const nombre = leerParametro("nombre");
+        const pelicula = buscar(datos.peliculas, "nombre", nombre);
+        montar(template, pelicula, "detalle");
       })();
     </script>
   </body>

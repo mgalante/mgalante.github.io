@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detalle</title>
+    <link rel="stylesheet" href="style.css" >
+
+</head>
+<body>
+    <div id="contenido"></div>
+    <script src="https://mgalante.github.io/filo/mustache.js "></script>
+    <script src="https://mgalante.github.io/filo/functions.js"></script>
+    <script>
+        (async function () {
+            const datos = await cargarDatos ('./datos.json');
+            const template = await cargarTemplate('./detalle.mustache');
+            const id = leerParametro ("id");
+            const libro = buscar (datos.libros, "id", id);
+            montar(template, libro, "contenido");
+
+        })();
+    </script>   
+</body>
+</html>

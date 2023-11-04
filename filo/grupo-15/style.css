@@ -2,7 +2,7 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
     line-height: 1.5;
-    background-image: url("/TP2/cancha.jpg");
+    background-image: url("cancha.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-attachment: fixed; 
@@ -32,7 +32,7 @@ h2 {
 .logo {
     width: 100px; 
     height: 100px; 
-    background-image: url("/TP2/Logo.png");
+    background-image: url("Logo.png");
     background-size: contain;
     position: absolute;
     bottom: 0;

@@ -1,0 +1,25 @@
+
+
+<p><a href="./index.html">Volver</a></p>
+<h1>Detalle de {{nombre}}</h1>
+<img src="{{imagen}}"  />
+<p>{{descripcion}}</p>
+<h2>Información detallada</h2>
+<ul>
+  <li><strong>Nombre:</strong> {{nombre}}</li>
+  <li><strong>Sobrenombre:</strong> {{sobrenombre}}</li>
+  <li>
+    <strong>Habilidades:</strong>
+    <ul>
+{{#habilidades}}
+<li>{{.}}</li>
+{{/habilidades}}
+    </ul>
+  </li>
+  <li>
+    <a href="{{wiki}}">Wikipedia</a>
+  </li>
+</ul>
+<p>
+  {{detalleExtendido}}
+</p>

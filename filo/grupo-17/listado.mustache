@@ -1,0 +1,15 @@
+<div class="contenedor">
+  <h1>Candidatxos que dieron su apoyo a Greta Thunberg</h1>
+  <img src="3021720.jpg" alt="Candidatos" />
+  <p>
+    ¡Bienvenido al listado lxs candidatxs que dieron su apoyo Greta Thunberg.
+  </p>
+  <ul>
+    {{#candidatxs}}
+    <li>
+      <a class="link-principal" href="detalle.html?id={{id}}">{{nombre}}</a>
+      <p>{{descripcion}}</p>
+    </li>
+    {{/candidatxs}}
+  </ul>
+</div>

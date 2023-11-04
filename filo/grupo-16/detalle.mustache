@@ -1,0 +1,27 @@
+<div class="contenedor">
+<p><a href="./index.html">Ir al inicio</a></p>
+<h1>Detalle de {{ Nombre }}</h1>
+<img src="{{imagen}}" height="300" />
+{{{DetalleExtendido}}}
+<ul>
+  <li><strong>Fundación:</strong> {{Fundación}}</li>
+  <li>
+    <strong>Dirección:</strong>
+    <ul>
+      {{#Dirección}}
+      <li>{{.}}</li>
+      {{/Dirección}}
+    </ul>
+  </li>
+  <li>
+    <strong>Actividades:</strong>
+    <ul>
+    {{#Actividades}}
+      <li>{{.}}</li>
+      {{/Actividades}}
+    </ul> 
+  </li>
+  <li><strong>Correo electrónico:</strong> {{CorreoElectrónico}}</li>
+  <li><strong>Web:</strong> <a href="{{Web}}">Web</a></li>
+</ul>
+</div>

@@ -1,0 +1,26 @@
+<div class="contenedor">
+<h1> Detalle de {{nombre}} </h1>
+<p>{{detalle}}</p>
+<img src="./{{imagen}}">   
+<h2>Información</h2>
+    <ul>  
+        <li><strong>Nombre:</strong>{{nombre}}</li>     
+        <li><strong>Cantidad de tripulantes:</strong> {{cantidadTripulantes}}</li>
+        <li><strong>Superficie vélica:</strong> {{superficieVelica}}</li>
+        <li><strong>Cantidad de velas:</strong> {{cantidadVelas}}</li>   
+        <li><strong>Características generales:</strong>
+            <ul class="gral">
+            {{#caracteristicasGenerales}}
+            <li>{{.}}</li>     
+            {{/caracteristicasGenerales}}  
+            </ul>
+
+        <li>
+            <a href="{{wiki}}"> Wikipedia</a>
+        </li>
+    </ul>
+<p>
+    {{masDetalle}}
+</p>
+<h4><a href="./index.html" ><i class="fa-solid fa-arrow-left"></i></a></h4>
+</div>

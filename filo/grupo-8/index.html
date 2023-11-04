@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peliculas de Christopher Nolan</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="contenido"></div>
+    <script src="./mustache.js"></script>
+    <script src="./functions.js"></script>
+    <script>
+      (async function () {
+        const datos = await cargarDatos("./peliculasnolan.json");
+        const template = await cargarTemplate("./index.mustache");
+        montar(template, datos, "contenido");
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<div class=contenedor>
+  <h1> Detalle de {{titulo}}</h1>
+    <img src="{{imagen}}" />
+   <ul>
+    <strong>Título:</strong><p>{{titulo}}</p>
+    <strong>Descripción:</strong> <p>{{descripcion}}</p>
+    <strong>Año de edición:</strong><p>{{añoDeEdicion}}</p>
+    <strong>Protagonistas:</strong>
+    <ul> 
+      {{#protagonistas}} <li>{{.}}</li> {{/protagonistas}}
+    </ul>
+   </ul>
+    <a href="./index.html">Volver</a>
+</div>

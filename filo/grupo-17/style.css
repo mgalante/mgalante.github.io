@@ -1,0 +1,36 @@
+body {
+
+    font-family:Arial, Helvetica, sans-serif;
+    background: green;
+    color: #333; red green blue)
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenedor {
+    max width: 700px;;
+    padding: 32px;
+    margin: 20px auto;
+    background: blue;
+    border: 5px dashed red;
+    border-radius: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 500px
+}
+
+ul {
+
+    list-style: disc;
+    padding-left: 30px;
+    
+}
+
+p {
+    margin-bottom: 16px;
+}

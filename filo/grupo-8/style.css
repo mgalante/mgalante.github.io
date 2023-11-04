@@ -1,0 +1,27 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: brown;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor {
+  max-width: 500px;
+  padding: 20px;
+  margin: 30px auto;
+  background: beige;
+  border: 5px dashed black;
+}
+
+img {
+  width: 100%
+}
+
+ul {
+  list-style: disc;
+  text-align: center;
+}

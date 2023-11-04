@@ -1,0 +1,18 @@
+<div class="contenedor">
+  <h1>{{titulo}}</h1>
+  <img src="./christopher-nolan.jpg" alt="Christopher Nolan" />
+  <p>
+    Cristopher Nolan es un director, guionista, productor y editor cinematografico dedicado mayormente al genero
+    de la ciencia ficcion, a continuacion se presenta una lista de su principal filmografìa a la fecha:
+  </p>
+  <ul>
+    {{#peliculas}}
+    <li>
+      <a class="link-principal" href="detalle.html?nombre={{nombre}}">{{nombre}}({{estreno}})</a>
+      <p>{{#genero}}
+        {{.}}
+        {{/genero}}</p>
+    </li>
+    {{/peliculas}}
+  </ul>
+</div>

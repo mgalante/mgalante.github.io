@@ -1,0 +1,156 @@
+{
+    "serpientes": [
+        {
+            "id": "01",
+            "nombre": "Boa constrictora",
+            "nombre cientifico": "Boa constrictor",
+            "familia": "Boidae",
+            "venenosa": false,
+            "imagen": "./boa-constrictora.jpg",
+            "wiki": "https://es.wikipedia.org/wiki/Boa_constrictor",
+            "descripcion": "Es uno de los reptiles con patrones más distintivos. Dependiendo del hábitat en el que intente inmiscuirse, su cuerpo puede ser de color marrón, verde, rojo o amarillo, y mostrar patrones crípticos de líneas irregulares, óvalos, diamantes y círculos.  Además, debido a su mala visión, depende de sus escamas termosensibles (fosetas labiales) para detectar a sus presas.",
+            "alimentacion": [
+                "Ardillas",
+                "Lagartos",
+                "Murciélagos",
+                "Pájaros de tamaño moderado",
+                "Ratas",
+                "Zarigüeyas"
+            ],
+            "habitat": "Se encuentran en América del Sur, principalmente en gran parte de la cuenca del Amazonas. Viven en hábitats con poca cantidad de agua, como desiertos y sabanas, a la vez que se las puede encontrar en bosques húmedos y terrenos de cultivo, habitando especialmente troncos huecos y madrigueras de mamíferos abandonados."
+        },
+        {
+            "id": "02",
+            "nombre":"Barbados",
+            "nombre cientifico": "Tetracheilostoma carlae",
+            "familia": "Leptotyphlopidae",
+            "venenosa": false,
+            "imagen": "./serpiente-barbados.jpg",
+            "wiki": "https://es.wikipedia.org/wiki/Tetracheilostoma_carlae",
+            "descripcion": "Los individuos adultos miden entre 9 y 10 cm de largo, alcanzando el mayor ejemplar conocido 10,4 cm, convirtiendola en la serpiente más pequeña del mundo. Es de color marrón oscuro con dos líneas amarillas grisáceas dorsolaterales.",
+            "alimentacion": [
+                "Larvas",
+                "Termitas"
+            ],
+            "habitat": "Su hábitat son los bosques de la isla caribeña de Barbados (también pueden encontrarse en estado de Chiapas, México)."
+        },
+        {
+            "id": "03",
+            "nombre": "Cobra real",
+            "nombre cientifico": "Ophiophagus hannah",
+            "familia": "Elapidae",
+            "venenosa": true,
+            "imagen": "./cobra-real.jpg",
+            "wiki": "https://es.wikipedia.org/wiki/Ophiophagus_hannah",
+            "descripcion": "Es una serpiente de gran tamaño, con una capucha (propia de las cobras) y con una coloración que suele ser parda u olivácea, a veces amarillenta, con parches ventrales de un color más claro; las escamas de la cabeza están orladas de negro.",
+            "alimentacion": [
+                "Huevos",
+                "Lagartos",
+                "Otras serpientes",
+                "Pequeños mamíferos"
+            ],
+            "habitat": "Viven sobre todo en las selvas tropicales de India, el sur de China y el Sudeste asiático y el color puede variar mucho de región a región. Se sienten a gusto en una gran variedad de hábitats incluidos: los bosques, los matorrales de bambú, los manglares y pantanos, praderas altas y ríos."
+        },
+        {
+            "id": "04",
+            "nombre": "Coral",
+            "nombre cientifico": "Micrurus frontalis altirostris",
+            "familia": "Elapidae",
+            "venenosa": true,
+            "imagen": "./Coral.jpg",
+            "wiki": "https://es.wikipedia.org/wiki/Serpiente_de_coral",
+            "descripcion": "Las serpientes de coral, conocidas también como serpientes rabo de ají o coralillos, se caracterizan por sus vivos colores, entre los que predominan el rojo, amarillo y negro aunque a veces suelen ser en un orden. También hay unas especies de serpientes no venenosas que se mimetizan con las corales, y se denominan falsas corales o serpientes rey.",
+            "alimentacion": [
+                "Lagartos",
+                "Pequeños mamíferos",
+                "Ranas"
+            ],
+            "habitat": "Se las puede encontrar principalmente en el continente americano, pero también se ven en algunas zonas de la región asiática. A pesar de que estas serpientes son propias de zonas tropicales, pueden aparecer en algunos pantanos y matorrales con mayor nivel de humedad."
+        },
+        {
+            "id": "05",
+            "nombre": "Crótalo azul",
+            "nombre cientifico": "Trimeresurus",
+            "familia": "Viperidae",
+            "venenosa": true,
+            "imagen": "./serpiente-crotalo-azul.webp",
+            "wiki": "https://es.wikipedia.org/wiki/Trimeresurus",
+            "descripcion": "Son serpientes en su mayoría un tanto pequeñas, principalmente arbóreas, con cuerpos delgados y colas prensiles. En general son verdes o azules, pero algunas especies también pueden ser de color amarillo, negro, naranja o tener marcas de color rojo.",
+            "alimentacion": ["Anfibios", "Aves", "Lagartos", "Roedores"],
+            "habitat": "Viven en los árboles, arbustos y paredes durante el día y escasamente bajan a la superficie si no es en busca de alimento. También se las puede ver en lugares de asentamiento humano donde hay jardines tropicales húmedos."
+        },
+        {
+            "id": "06",
+            "nombre": "Mamba Negra",
+            "nombre cientifico": "Dendroaspis polylepis",
+            "familia": "Elapidae",
+            "venenosa": true,
+            "imagen": "./Mamba Negra.jpg",
+            "wiki": "https://es.wikipedia.org/wiki/Dendroaspis_polylepis",
+            "descripcion": "Su nombre no es debido al color de su piel, que puede ser verde oliva, marrón amarillento o gris muy oscuro, sino al negro azulado del interior de su boca. Es una criatura veloz e inquieta, pero a pesar de su reputación de ser un animal de gran agresividad, solo ataca si es provocada y ante amenazas que le impiden el movimiento o la posibilidad de retroceder a su guarida.",
+            "alimentacion": [
+                "Ardillas",
+                "Aves",
+                "Damanes",
+                "Otros mamíferos pequeños"
+            ],
+            "habitat": "Vive en una extensa zona del África subsahariana, prefiriendo ambientes moderadamente secos como bosques poco densos y de matorrales, zonas rocosas y sabanas semiáridas. También puede habitar en sabanas húmedas y bosques de tierras bajas."
+        },
+        {
+            "id": "07",
+            "nombre": "Serpiente del maíz",
+            "nombre cientifico": "Pantherophis guttatus",
+            "familia": "Colubridae",
+            "venenosa": false,
+            "imagen": "./Serpiente-del-maíz.jpg",
+            "wiki": "https://es.wikipedia.org/wiki/Pantherophis_guttatus",
+            "descripcion": "Su apariencia es de color amarillo con triángulos naranja mandarina con bordes negros o perfilados. Debe su nombre a su lugar preferido: los cultivos de maíz, donde encuentra alimento y protección.",
+            "alimentacion": [
+                "Aves",
+                "Escarabajos",
+                "Grillos",
+                "Gusanos",
+                "Lagartijas",
+                "Murciélagos",
+                "Roedores"
+            ],
+            "habitat": "Es una especie muy adaptable. Es terrestre y/o semiarborícola y habita en bosques claros y soleados, pudiendo encontrarse también en zonas agrícolas, praderas y entornos urbanos."
+        },
+        {
+            "id": "08",
+            "nombre": "Víbora de la Muerte",
+            "nombre cientifico": "Acanthophis antarcticus",
+            "familia": "Elapidae",
+            "venenosa": true,
+            "imagen": "./vibora-de-la-muerte.jpg",
+            "wiki": "https://es.wikipedia.org/wiki/Acanthophis",
+            "descripcion": "Son comúnmente llamadas víboras de la muerte, a pesar de no estar emparentadas con las víboras y que su parecido se deba a una convergencia evolutiva. Tienen una cabeza triangular plana y ancha y un cuerpo grueso con bandas de color rojizo, marrón y negro con una panza gris, crema o rosa. Aunque no son consideradas agresivas, sus técnicas de caza de emboscada y dependencia del camuflaje, en lugar de la huida para evitar amenazas, las hacen más peligrosas.",
+            "alimentacion": [
+                "Aves",
+                "Pequeños mamíferos"
+            ],
+            "habitat": "Es una especie que se encuentra en los bosques, terrenos boscosos, praderas y brezales de la costa oriental de Australia."
+        },
+        {
+            "id": "09",
+            "nombre":"Víbora de los arbustos",
+            "nombre cientifico": "Atheris hispida",
+            "familia": "Viperidae",
+            "venenosa": true,
+            "imagen": "./vibora-arbusto.webp",
+            "wiki": "https://es.wikipedia.org/wiki/Atheris_hispida",
+            "descripcion": "Se caracteriza por su cuerpo cubierto de escamas dorsales alargadas, fuertemente quilladas que dan a esta especie un aspecto erizado y áspero. Su color va generalmente en las variaciones del verde pero puede variar de azul a marrón claro.",
+            "alimentacion": [
+                "Aves",
+                "Babosa",
+                "Caracoles",
+                "Lagartos",
+                "Otras serpientes",
+                "Pequeños mamíferos",
+                "Ranas",
+                "Roedores"
+            ],
+            "habitat": "Es una especie endémica de África Central. Es nocturna y arborícola; habita en bosques de hoja perenne, montañas, selvas tropicales y pantanos. A menudo se encuentra tomando el sol en árboles, flores o enredaderas."
+        }
+    ]
+}

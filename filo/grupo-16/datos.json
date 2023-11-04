@@ -1,0 +1,85 @@
+{
+  "Titulo": "Instituciones y Asociaciones de la Colectividad Gallega en Argentina",
+  "Instituciones": [
+    {
+      "id": "1",
+      "Nombre": "Centro Galicia de Buenos Aires",
+      "imagen": "./centrogalicia.jpg",
+      "Fundación": 1979,
+      "Dirección": [
+        "Sede Social: Bartolomé Mitre 2552. CABA",
+        "Campo Deportivo: Av del Libertador 2925. Vicente López"
+      ],
+      "Actividades": [
+        "Danzas",
+        "Talleres",
+        "Encuentros",
+        "Teatro",
+        "Coro",
+        "Biblioteca",
+        "Gimnasio",
+        "Basquet",
+        "Volley",
+        "Fútbol",
+        "Tenis",
+        "Bolos celtas",
+        "Patin"
+      ],
+      "CorreoElectrónico": "info@centrogalicia-bsas.org",
+      "Web": "https://www.centrogalicia-bsas.org/",
+      "DetalleExtendido": "<p>El Centro Galicia de Buenos Aires nació el 25 de julio de 1979 para proyectar nuestra identidad, a través de nuestros descendientes, en las generaciones futuras y preservar los valores fundamentales de las culturas de Argentina, Galicia y España. Somos una asociación civil sin fines de lucro surgida de la valiente decisión de un grupo de dirigentes que supo ver en la fusión de la Asociación Gallega de Buenos Aires (Centros Coruñés y Pontevedrés), el Centro Lucense y el Centro Orensano, el futuro próspero que hoy transitamos. Nuestra entidad nació con la consigna fundamental de unir los esfuerzos de la colectividad gallega en Argentina para sumar a un país que nos abrió sus brazos y con el que crecemos día a día. Es un proyecto joven que avanza defendiendo el legado de un pueblo milenario.</p>"
+    },
+    {
+      "id": "2",
+      "Nombre": "Centro Lalín, Agolada y Silleda",
+      "imagen": "./lalin.jpg",
+      "Fundación": 1982,
+      "Dirección": ["Moreno 1949. CABA"],
+      "Actividades": ["Talleres", "Eventos", "Coro"],
+      "CorreoElectrónico": "centrolalin@yahoo.com.ar",
+      "Web": "http://lalinbuenosaires.galiciaaberta.com/es/",
+      "DetalleExtendido": "Centro fundado el 25 de julio de 1982. El propósito que animó a sus fundadores fue el de agrupar en un solo centro las distintas sociedades del partido judicial de Lalín constituidas en Buenos Aires, en base al escaso y casi nulo caudal migratorio que en aquella época se venia registrando.          En la Asamblea General Ordinaria celebrada el 25 de agosto de 1984 aprobaron por unanimidad, la integración en este centro de las sociedades Asociación Hijos del Partido de Lalín, Asociación Hijos de Silleda, Asociación Unión del Partido de Lalín y Sociedad Hijos del Ayuntamiento de Golada y sus contornos.<p>La Asociación Hijos del Partido de Lalín, fundada el 7 de agosto de 1908, es la institución considerada decana dentro de las similares en Argentina. Por la proximidad con el Centro Gallego de Buenos Aires, por el gran número de socios que tubo en sus mejores épocas y por el trabajo hecho a lo largo de su existencia es considerada una de las asociaciones de más renombre de Hispanoamérica.<p>Los motivos de su fundación fueron los de ayudar a hacer obras en la villa de Lalín, entre las que se pueden contar: el cementerio, el Hospitalillo (en la actualidad Instituto de Formación Profesional), monumentos a diversos personajes (Joaquín Loriga e Ramón Aller), así como los grupos escolares de Barcia, Villanueva, Prado, Sotolongo. Las asociaciones Hijos de Silleda, fundada el 15 de agosto de 1908, Unión del Partido de Lalín, fundada el 30 de enero de 1921 y la Sociedad Hijos del Ayuntamiento de Golada y sus contornos fundada el 20 de julio de 1930 tenían idénticas características y los mismos fines sociales, culturales y recreativos que Hijos del Partido de Lalín. Todas estas sociedades por resolución unánime de sus socios resolvieron integrarse en el Centro Lalín de Buenos Aires con todo su caudal humano y bienes y en igualdad de condiciones, para desarrollar la misma actividad para la cual fueron fundadas. El Centro Lalín es pues la institución continuadora de estas cuatro sociedades casi centenarias y que automáticamente se convierten en el verdadero receptor de su rico historial. La sede social, en propiedad, cuenta con un gran salón, escenario, restaurante, secretaria e presidencia. Cuentan también con un campo de recreo en Belgrano 1001, de San Isidro (Provincia de Buenos Aires). A la entidad le fue otorgada la condición de galleguidad el 17 de septiembre de 1992, (DOG nº 278/92, nº 190 del 29 de septiembre) y cuenta en la actualidad con 920 socios, de los cuales 487 son gallegos. Es miembro de la Unión de Asociaciones Gallegas de la República Argentina.</p>"
+    },
+    {
+      "id": "3",
+      "Nombre": "Federación de Asociaciones Gallegas de la República Argentina",
+      "imagen": "./federacion.jpg",
+      "Fundación": 1921,
+      "Dirección": ["Chacabuco 955. CABA"],
+      "Actividades": [
+        "Danzas gallegas",
+        "Biblioteca",
+        "Gaitas",
+        "Teatro",
+        "Coro",
+        "Museo de la Emigracicón Gallega",
+        "Idioma Gallego",
+        "Orquesta de Cámara",
+        "Eventos"
+      ],
+      "CorreoElectrónico": "edegaleg@hotmail.com",
+      "Web": "http://www.fsgallegas.org.ar/",
+      "DetalleExtendido": "<p>Este centro nace en septiembre de 1921 con el nombre de Federación de Sociedades Gallegas, Agrarias y Culturales, como resultado de la unión de doce entidades que suman 1300 personas asociadas. El objetivo enunciado en su declaración de principios consiste en la redención del campesinado gallego, la superación del atraso económico y cultural de Galicia y la libertad del pueblo español. Durante los años 20 logra una gran adhesión del conjunto de microasociaciones comarcales gallegas, totalizando en poco tiempo 40 entidades con 5800 personas afiliadas.<p> Edita un quincenal llamado O Despertar Galego, el cual, ante la censura imperante en España se convierte en uno de los puntos de propaganda de las nuevas ideas nacionalistas de izquierda.<p>A lo largo de su historia, la Federación trasladó sus actividades a diferentes sedes producto del devenir político y económico de la Argentina y de la misma entidad. De aquella primera casa en la calle Bolívar 655 hasta la actual en la calle Chacabuco 955, fueron varios los traslados, aunque siempre estuvo restringido a un mismo barrio de la ciudad de Buenos Aires: San Telmo."
+    },
+    {
+      "id": "4",
+      "Nombre": "Sociedad Parroquial de Vedra",
+      "imagen": "./vedra.jpg",
+      "Fundación": 1910,
+      "Dirección": ["José Marmol 780"],
+      "Actividades": [
+        "Danzas tradicionales gallegas",
+        "Biblioteca",
+        "Cantareiras",
+        "Teatro",
+        "Gaitas",
+        "Ruadas",
+        "Campeonato de truco",
+        "Eventos"
+      ],
+      "CorreoElectrónico": "info@vedra.com.ar",
+      "Web": "https://www.vedra.com.ar/",
+      "DetalleExtendido": "<p>Sociedad Parroquial de Vedra, mutualidad y cultura de Buenos Aires es una institución que, desde 1910 despliega el espíritu gallego a lo largo de la Ciudad de Buenos Aires y allá donde sean convocados. La SPV forma parte de la oferta cultural de la Ciudad, y es un referente en la difusión de la personalidad, la cultura y costumbres gallegas.<p>Actividades de excelencia convocan a socios, porteños, y visitantes en general. Nuestras fiestas resultan una pieza esencial para iniciar un recorrido enriquecedor y más amplio de la galleguidad.</p>"
+    }
+  ]
+}

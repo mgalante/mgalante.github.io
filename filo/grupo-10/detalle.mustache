@@ -1,0 +1,35 @@
+    <h1>Fichas micológicas</h1>
+<div class="padding2">
+<div class="contenido">
+    <h2>{{nombre_científico}}</h2>
+    <img src="{{imagen}}" />
+    <ul class="lista">
+        <li><span class="estilo">nombre científico</span>: {{nombre_científico}}</li>
+        <li><span class="estilo">nombre común</span>: 
+        <ul>
+        {{#nombre_común}}
+        <li>{{.}}</li>
+        {{/nombre_común}}
+        {{^nombre_común}}
+        <li>no posee</li>
+        {{/nombre_común}}
+        </ul>
+        </li>
+        <li><span class="estilo">ecología</span>: {{ecología}}</li>
+        <li><span class="estilo">reproducción</span>: {{reproducción}}</li>
+        <li><span class="estilo">morfología de las fructificaciones</span>: {{morfología_de_las_fructificaciones}}</li>
+        <li><span class="estilo">respiración</span>: 
+        <ul>
+        {{#respiración}}
+        <li> {{.}}</li>
+        {{/respiración}}
+        </ul>
+        </li>
+        <li>
+        <a href="{{enlace}}">{{descripción_de_enlace}}</a>
+        </li>
+    </ul>
+</div>
+</div>
+        <p class="caja"><a href="./index.html">Volver</a></p>
+    
