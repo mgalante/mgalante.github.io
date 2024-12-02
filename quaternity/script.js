@@ -79,7 +79,7 @@ function calculateRemainingTime(state, player, currentTime) {
     const endEvent = playerEvents[i + 1] || { timeStamp: currentTime };
     totalTime += endEvent.timeStamp - startEvent.timeStamp;
   }
-  return Math.max(0, limitTime - totalTime);
+  return  limitTime - totalTime;
 }
 
 function getTimerState(state) {
@@ -88,12 +88,15 @@ function getTimerState(state) {
 
 // ------------------------------
 
-let currentState = {
+let currentState = 
+localStorage.getItem("state") ? JSON.parse(localStorage.getItem("state")) :
+{
   timerRegistry: [],
   limitTime: 10 * 60 * 1000,
 };
 
 function updateState(newState) {
+  localStorage.setItem("state", JSON.stringify(newState));
   currentState = newState;
   updateScreen(currentState);
 }
@@ -146,9 +149,17 @@ function updateScreen(state) {
   );
 
   armyDivs.forEach((div, i) => {
+    const remmainigTime = calculateRemainingTime(state, i, Date.now());
+    
     const time = formatMilliseconds(
-      calculateRemainingTime(state, i, Date.now())
+      Math.abs(remmainigTime)
     );
+    if(remmainigTime < 0){
+      div.classList.add("overtime");
+    }
+    else{
+      div.classList.remove("overtime");
+    }
     div.innerText = time;
   });
 
