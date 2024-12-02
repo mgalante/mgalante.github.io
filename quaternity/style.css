@@ -65,6 +65,10 @@ body {
 }
 
 
+.toolbar-container {
+    display: flex;
+    justify-content: space-between;
+}
 .toolbar {
     padding:8px;
 }
