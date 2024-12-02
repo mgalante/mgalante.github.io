@@ -57,6 +57,7 @@ function pauseTimer(state, currentTime) {
   );
   return newState;
 }
+
 function resumeTimer(state, currentTime) {
   const newState = { ...state };
   newState.timerRegistry = [...state.timerRegistry];
@@ -120,16 +121,14 @@ document.getElementById("stop").addEventListener("click", () => {
   updateState(getInitialState(currentState.limitTime));
 });
 
-document.getElementById("duration2").addEventListener("click", () => {
-  updateState(setLimitTime(currentState, 2 * MINUTES));
+document.getElementById("add-1").addEventListener("click", () => {
+  updateState(setLimitTime(currentState, currentState.limitTime + MINUTES));
 });
 
-document.getElementById("duration5").addEventListener("click", () => {
-  updateState(setLimitTime(currentState, 5 * MINUTES));
-});
-
-document.getElementById("duration10").addEventListener("click", () => {
-  updateState(setLimitTime(currentState, 10 * MINUTES));
+document.getElementById("remove-1").addEventListener("click", () => {
+  if(currentState.limitTime >= MINUTES){
+    updateState(setLimitTime(currentState, currentState.limitTime - MINUTES));
+  }
 });
 
 document.querySelectorAll(".grid-item").forEach((item) => {
@@ -182,6 +181,10 @@ function updateScreen(state) {
     document.getElementById("pause").disabled = true;
     document.getElementById("overlay").style.display = "block";
   }
+
+  document.getElementById("duration").innerText = formatMilliseconds(
+    currentState.limitTime
+  );
 }
 
 setInterval(() => {
