@@ -1,11 +1,13 @@
 const COUNT_PLAYERS = 4;
 const PLAYER_INDEXES = Array.from({ length: COUNT_PLAYERS }, (_, i) => i);
 const MINUTES = 60000;
+const SECONDS = 1000;
 
-function getInitialState(limitTime) {
+function getInitialState(limitTime, extraTime) {
   return {
     timerRegistry: [],
     limitTime,
+    extraTime
   };
 }
 
@@ -31,7 +33,11 @@ function getCurrentPlayer(state) {
 }
 
 function setLimitTime(state, limitTime) {
-  return { ...state, limitTime };
+  return { ...state, limitTime: limitTime > 0 ? limitTime : 0 };
+}
+
+function setExtraTime(state, extraTime) {
+  return { ...state, extraTime: extraTime > 0 ? extraTime : 0 };
 }
 
 function validateEndTurn(state, player) {
@@ -48,12 +54,12 @@ function switchTurn(state, currentTime) {
   return newState;
 }
 
-function pauseTimer(state, currentTime) {
+function stopTimer(state, currentTime) {
   const newState = { ...state };
   newState.timerRegistry = [...state.timerRegistry];
   const currentPlayer = getCurrentPlayer(state);
   newState.timerRegistry.push(
-    getTimerItem(currentTime, currentPlayer, "pause")
+    getTimerItem(currentTime, currentPlayer, "stop")
   );
   return newState;
 }
@@ -74,26 +80,23 @@ function calculateRemainingTime(state, player, currentTime) {
   );
   let totalTime = 0;
   const { limitTime } = state;
+  const extraTime = playerEvents.filter((item) => item.eventType === "end").length * state.extraTime;
   for (let i = 0; i < playerEvents.length; i += 2) {
     const startEvent = playerEvents[i];
     const endEvent = playerEvents[i + 1] || { timeStamp: currentTime };
-    totalTime += endEvent.timeStamp - startEvent.timeStamp;
+    totalTime += endEvent.timeStamp - startEvent.timeStamp ;
   }
-  return  limitTime - totalTime;
-}
-
-function getTimerState(state) {
-  return state.timerRegistry.length ? "running" : "stopped";
+ 
+ 
+  return  Math.max(limitTime - totalTime + extraTime, 0);
 }
 
 // ------------------------------
 
 let currentState = 
 localStorage.getItem("state") ? JSON.parse(localStorage.getItem("state")) :
-{
-  timerRegistry: [],
-  limitTime: 10 * 60 * 1000,
-};
+getInitialState(10 * MINUTES, 5 * SECONDS);
+
 
 function updateState(newState) {
   localStorage.setItem("state", JSON.stringify(newState));
@@ -107,21 +110,21 @@ function getLastEventType(state) {
 // ------------------------------
 
 document.getElementById("start").addEventListener("click", () => {
-  if (getLastEventType(currentState) === "pause") {
+  if (getLastEventType(currentState) === "stop") {
     updateState(resumeTimer(currentState, Date.now()));
   } else {
-    const newState = getInitialState(currentState.limitTime);
+    const newState = getInitialState(currentState.limitTime, currentState.extraTime || 0);
     newState.timerRegistry.push(getTimerItem(Date.now(), 0, "start"));
     updateState(newState);
   }
 });
 
-document.getElementById("pause").addEventListener("click", () => {
-  updateState(pauseTimer(currentState, Date.now()));
+document.getElementById("stop").addEventListener("click", () => {
+  updateState(stopTimer(currentState, Date.now()));
 });
 
-document.getElementById("stop").addEventListener("click", () => {
-  updateState(getInitialState(currentState.limitTime));
+document.getElementById("reset").addEventListener("click", () => {
+  updateState(getInitialState(currentState.limitTime, currentState.extraTime));
 });
 
 document.getElementById("add-1").addEventListener("click", () => {
@@ -129,10 +132,17 @@ document.getElementById("add-1").addEventListener("click", () => {
 });
 
 document.getElementById("remove-1").addEventListener("click", () => {
-  if(currentState.limitTime >= MINUTES){
-    updateState(setLimitTime(currentState, currentState.limitTime - MINUTES));
-  }
+  updateState(setLimitTime(currentState, currentState.limitTime - MINUTES));
 });
+
+document.getElementById("et-add-1").addEventListener("click", () => {
+  updateState(setExtraTime(currentState, currentState.extraTime + SECONDS));
+});
+
+document.getElementById("et-remove-1").addEventListener("click", () => {
+  updateState(setExtraTime(currentState, currentState.extraTime - SECONDS));
+});
+
 
 document.querySelectorAll(".grid-item").forEach((item) => {
   item.addEventListener("click", (e) => {
@@ -148,20 +158,8 @@ function updateScreen(state) {
     document.getElementById(`army-${i}`)
   );
 
-  armyDivs.forEach((div, i) => {
-    const remmainigTime = calculateRemainingTime(state, i, Date.now());
-    
-    const time = formatMilliseconds(
-      Math.abs(remmainigTime)
-    );
-    if(remmainigTime < 0){
-      div.classList.add("overtime");
-    }
-    else{
-      div.classList.remove("overtime");
-    }
-    div.innerText = time;
-  });
+  armyDivs.forEach((div, i) => 
+    div.innerText = formatMilliseconds(calculateRemainingTime(state, i, Date.now())));
 
   const container = document.querySelector(".grid-container");
   if (getCurrentPlayer(state) !== undefined) {
@@ -172,29 +170,33 @@ function updateScreen(state) {
 
   if (currentState.timerRegistry.length === 0) {
     document.getElementById("start").disabled = false;
-    document.getElementById("stop").disabled = true;
+    document.getElementById("reset").disabled = true;
   } else {
     document.getElementById("start").disabled = true;
-    document.getElementById("stop").disabled = false;
+    document.getElementById("reset").disabled = false;
   }
 
-  if (getLastEventType(state) === "pause") {
-    document.getElementById("pause").disabled = true;
+  if (getLastEventType(state) === "stop") {
+    document.getElementById("stop").disabled = true;
     document.getElementById("start").disabled = false;
     document.getElementById("overlay").style.display = "block";
   } else if (
     getLastEventType(state) === "resume" ||
     getLastEventType(state) === "start"
   ) {
-    document.getElementById("pause").disabled = false;
+    document.getElementById("stop").disabled = false;
     document.getElementById("overlay").style.display = "none";
   } else {
-    document.getElementById("pause").disabled = true;
+    document.getElementById("stop").disabled = true;
     document.getElementById("overlay").style.display = "block";
   }
 
   document.getElementById("duration").innerText = formatMilliseconds(
     currentState.limitTime
+  );
+
+  document.getElementById("et").innerText = formatMilliseconds(
+    currentState.extraTime
   );
 }
 
