@@ -1,0 +1,1 @@
+{"name":"Quatimer","short_name":"Quatimer","description":"A reloj para Quaternity","start_url":"./","display":"standalone","background_color":"#ffffff","theme_color":"#1f2937","lang":"en","scope":"./","icons":[{"src":"timer-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
